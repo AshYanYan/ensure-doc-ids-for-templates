@@ -1,9 +1,9 @@
+import csv
 import json
 from pathlib import Path
-from flatten_dict import flatten
-import csv
 from sys import stdout
 
+from flatten_dict import flatten
 
 all_pdf_templates_in_dev = "../pdf-templates-dev.json"
 all_pdf_templates_in_prod = "../pdf-templates-prod.json"

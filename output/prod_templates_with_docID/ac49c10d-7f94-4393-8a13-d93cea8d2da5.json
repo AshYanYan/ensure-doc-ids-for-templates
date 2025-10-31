@@ -1,0 +1,478 @@
+{
+    "created": "2024-04-09T13:47:00Z",
+    "id": "ac49c10d-7f94-4393-8a13-d93cea8d2da5",
+    "name": "pcp_qual_adh_centene_demo",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}",
+                    "string_replacements": {
+                        "priority_health": {
+                            "English": "(cont.)"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 12.0,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 250.0,
+                    "x": 36.0,
+                    "y": 756.0
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30.0,
+                    "x": 576.0,
+                    "y": 756.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10.0,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 65.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "univera",
+                        "simply_prescriptions"
+                    ],
+                    "string": "ORG_DOC_ID",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "Y0028_9954_C"
+                        },
+                        "excellus_dsnp": {
+                            "English": "H7524_0597_C"
+                        },
+                        "simply_prescriptions": {
+                            "English": "S3521_9932_C"
+                        },
+                        "univera": {
+                            "English": "Y0028_9938_C"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8.0
+                    },
+                    "width": 200.0,
+                    "x": 36.0,
+                    "y": 20.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8.0,
+                        "text_alignment": "right"
+                    },
+                    "width": 200.0,
+                    "x": 376.0,
+                    "y": 20.0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "string_replacements": {
+                        "scan": {}
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "GET WELL PLAN <b>{patient_full_name} (DOB: {patient_date_birth})</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_prefix} {provider_full_name}:",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "I am a {hotline_name} pharmacist. On {letter_date}, I spoke with your patient to perform a medication consultation. I have summarized the issues identified and my recommendations in the below table.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "4%",
+                        "52%",
+                        "44%",
+                        "0%"
+                    ],
+                    "data_source": "provider_recommendations",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Assessment",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Recommendation",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Please send any updated medication prescriptions to the patient\u2019s preferred pharmacy. The patient\u2019s preferred pharmacy is:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacy_name}<br/>{pharmacy_street}<br/>{pharmacy_city_state_zip}<br/>Phone: {pharmacy_phone}",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We appreciate working with you to provide high-quality healthcare for our patients.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 50.0,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18.0,
+                        "leading": 18.0,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Pharmacist<br/>{pharmacist_credentialed_name}<br/>{hotline_name}",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 12.0,
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "univera"
+                    ],
+                    "string": "Test String",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "ExcellusBCBS.com"
+                        },
+                        "excellus_dsnp": {
+                            "English": "ExcellusBCBS.com"
+                        },
+                        "univera": {
+                            "English": "UniveraHealthcare.com"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200.0,
+                    "x": 36.0,
+                    "y": 746.0
+                }
+            },
+            {
+                "text": {
+                    "height": 12.0,
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "univera"
+                    ],
+                    "string": "Test Street Address<br/>City, State Zip_Code",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "165 Court Street<br/>Rochester, NY 14647"
+                        },
+                        "excellus_dsnp": {
+                            "English": "165 Court Street<br/>Rochester, NY 14647"
+                        },
+                        "univera": {
+                            "English": "205 Park Club Ln.<br/>Buffalo, NY 14221"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200.0,
+                    "x": 250.0,
+                    "y": 746.0
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30.0,
+                    "x": 576.0,
+                    "y": 756.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10.0,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 65.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "univera",
+                        "simply_prescriptions"
+                    ],
+                    "string": "ORG_DOC_ID",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "Y0028_9954_C"
+                        },
+                        "excellus_dsnp": {
+                            "English": "H7524_0597_C"
+                        },
+                        "simply_prescriptions": {
+                            "English": "S3521_9932_C"
+                        },
+                        "univera": {
+                            "English": "Y0028_9938_C"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8.0
+                    },
+                    "width": 200.0,
+                    "x": 36.0,
+                    "y": 20.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 8.0,
+                        "text_alignment": "right"
+                    },
+                    "width": 200.0,
+                    "x": 376.0,
+                    "y": 20.0
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72.0,
+                "left": 36.0,
+                "right": 36.0,
+                "top": 72.0
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12.0,
+                    "leading": 16.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 16.0,
+                    "spaceBefore": 12.0,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12.0,
+                    "leading": 14.0,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2024-08-09T17:26:14"
+}

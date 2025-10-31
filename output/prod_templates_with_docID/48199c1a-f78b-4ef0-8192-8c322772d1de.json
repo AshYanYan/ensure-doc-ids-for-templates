@@ -1,0 +1,186 @@
+{
+    "created": "2025-09-29T17:04:36.462850",
+    "id": "48199c1a-f78b-4ef0-8192-8c322772d1de",
+    "managed": true,
+    "name": "Centene Medicaid Prescriber Address Page 2025 (Multiple SubOrg / Standard Font)",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "sw",
+                    "filename": "{org_logo}",
+                    "height": 36.0,
+                    "max_width": 180.0,
+                    "x": 50.4,
+                    "y": 720.0
+                }
+            },
+            {
+                "text": {
+                    "height": 72.0,
+                    "string": "{org_address}",
+                    "text_style": {
+                        "parent_style": "AddressText"
+                    },
+                    "width": 216.0,
+                    "x": 50.4,
+                    "y": 640.8
+                }
+            },
+            {
+                "text": {
+                    "height": 72.0,
+                    "string": "{provider_mailing_address}",
+                    "text_style": {
+                        "parent_style": "AddressText"
+                    },
+                    "width": 216.0,
+                    "x": 54.0,
+                    "y": 576.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 23.400000000000002
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "sw",
+                    "filename": "{org_logo}",
+                    "height": 36.0,
+                    "max_width": 180.0,
+                    "x": 50.4,
+                    "y": 720.0
+                }
+            },
+            {
+                "text": {
+                    "height": 72.0,
+                    "string": "{org_address}",
+                    "text_style": {
+                        "parent_style": "AddressText"
+                    },
+                    "width": 216.0,
+                    "x": 50.4,
+                    "y": 640.8
+                }
+            },
+            {
+                "text": {
+                    "height": 72.0,
+                    "string": "{provider_mailing_address}",
+                    "text_style": {
+                        "parent_style": "AddressText"
+                    },
+                    "width": 216.0,
+                    "x": 54.0,
+                    "y": 576.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 23.400000000000002
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72.0,
+                "left": 48.0,
+                "right": 48.0,
+                "top": 36.0
+            },
+            "pagination": {
+                "show": false
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "orientation": "portrait",
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Helvetica-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DisclaimerText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DocIdText": {
+                    "fontName": "Helvetica-normal",
+                    "fontSize": 9.0,
+                    "leading": 10.799999999999999,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterFormIdText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 10.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText1": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText2": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText3": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText4": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                }
+            }
+        }
+    },
+    "updated": "2025-09-29T17:04:36.462850"
+}

@@ -1,0 +1,551 @@
+{
+    "created": "2025-01-29T14:30:42Z",
+    "id": "6860ed9c-11bd-450c-8521-a62fd20a02de",
+    "name": "PA_batch+followup_Molina",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "DOCID-{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{provider_full_name}<br />{provider_address}",
+                    "text_style": {
+                        "parent_style": "BiggerText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{prep_date}",
+                    "text_style": {
+                        "parent_style": "BiggerText",
+                        "text_alignment": "right"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b><i>Re: Medication Opportunity - ALERT</i></b>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_full_name},",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Molina Healthcare is committed to ensuring our members receive integrated and high-quality care. Our approach integrates the management of behavioral, pharmacy and physical health care benefits. We have implemented a Quality Improvement Program to collaborate and assist you in providing safe, appropriate, and cost-effective care to patients. As part of this program, drug utilization algorithms based on evidence-based guidelines are utilized to identify any potential medication-related concerns.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "This letter has been generated because we have identified a member-specific quality opportunity. Please review the information at the top of each page and the corresponding patient list to determine if a change in therapy can be made.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "A clinical pharmacist may contact you to schedule a consultation and explain how the information can be used to support your prescribing decisions and help reduce the risks of adverse effects. You may also request a personal consultation, provide feedback, or request additional data by contacting your dedicated pharmacist at (855) 658-0918, TTY: 711.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "All patients listed in this document have received a paid prescription with your national identification number (NPI) identified as the prescriber. Please be aware some of these patients may have received a prescription from you at a different site of service as this mailing is directed to the address primarily associated with your DEA.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "The enclosed information is derived from pharmacy and medical claims data; however, additional claims paid by cash or other insurance will not be listed. If you receive information you believe to be inaccurate, please contact our toll-free number at (855) 658-0918, TTY: 711 and destroy the information in a confidential manner.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "On Behalf of Molina Healthcare Clinical Pharmacy Services",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "loop": {
+                    "data": {
+                        "iterate_over": "drps"
+                    },
+                    "elements": [
+                        {
+                            "paragraph": {
+                                "string": "{drp_title}",
+                                "text_style": {
+                                    "parent_style": "Heading1Text",
+                                    "textColor": "#00a89e",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "columns": {
+                                "column_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "LINEBELOW": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                1.0,
+                                                "#000000"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "content": [
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_assessment_list_items",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "ParagraphText"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "{drp_assessment_title}:",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234.0
+                                    },
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_recommendation_list_items",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "ParagraphText"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "{drp_recommendation_title}:",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234.0
+                                    }
+                                ],
+                                "spaceAfter": 24.0,
+                                "spaceBefore": 24.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "display_condition": "drp_alternatives_table_title",
+                                "string": "{drp_alternatives_table_title}:",
+                                "text_style": {
+                                    "parent_style": "FooterText"
+                                }
+                            }
+                        },
+                        {
+                            "table": {
+                                "column_widths": [
+                                    200.0,
+                                    250.0
+                                ],
+                                "data_source": "drp_alternatives_table_rows",
+                                "display_condition": "drp_alternatives_table_rows",
+                                "row_heights": [
+                                    20.0,
+                                    55.0,
+                                    55.0,
+                                    20.0,
+                                    20.0,
+                                    110.0,
+                                    20.0,
+                                    30.0,
+                                    20.0
+                                ],
+                                "row_template": [
+                                    {
+                                        "paragraph": {
+                                            "text_style": {
+                                                "fontSize": 10.0,
+                                                "leading": 10.0,
+                                                "parent_style": "ParagraphText"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "paragraph": {
+                                            "text_style": {
+                                                "fontSize": 10.0,
+                                                "leading": 10.0,
+                                                "parent_style": "ParagraphText"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "spaceBefore": 5.0,
+                                "table_alignment": "center",
+                                "table_header": [],
+                                "table_headers_reference": "drp_alternatives_table_headers",
+                                "table_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                "MIDDLE"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "BOTTOMPADDING": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                6.0
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "BOX": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                1.0,
+                                                "#787878"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "INNERGRID": {
+                                            "end": [
+                                                -1.0,
+                                                10.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                1.0,
+                                                "black"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "display_condition": "drp_alternatives_table_notes",
+                                "string": "{drp_alternatives_table_notes}",
+                                "text_style": {
+                                    "parent_style": "FooterText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "{drp_references_title}:",
+                                "text_style": {
+                                    "parent_style": "FooterText"
+                                }
+                            }
+                        },
+                        {
+                            "list": {
+                                "items": "drp_references_list_items",
+                                "list_attributes": {
+                                    "bulletFontSize": 8.0,
+                                    "bulletFormat": "%s.",
+                                    "bulletType": "1"
+                                },
+                                "text_style": {
+                                    "parent_style": "FooterText"
+                                }
+                            }
+                        },
+                        {
+                            "spacer": {
+                                "height": 30.0
+                            }
+                        },
+                        {
+                            "chart": {
+                                "chart_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                "MIDDLE"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "GRID": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                1.0,
+                                                "#000000"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "BACKGROUND": {
+                                            "end": [
+                                                -1.0,
+                                                0.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                "#EDEDED"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "chart_type_source": "drp_patient_table_type",
+                                "column_widths_source": "drp_patient_table_column_widths",
+                                "content_source": "drp_patient_table_content",
+                                "content_template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "TableBodyText"
+                                        }
+                                    }
+                                },
+                                "header_template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "TableHeaderText",
+                                            "text_alignment": "center"
+                                        }
+                                    }
+                                },
+                                "headers_source": "drp_patient_table_headers"
+                            }
+                        }
+                    ],
+                    "separators": [
+                        {
+                            "pagebreak": {}
+                        }
+                    ]
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30.0,
+                    "x": 540.0,
+                    "y": 776.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "DOCID-{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72.0,
+                "left": 52.0,
+                "right": 52.0,
+                "top": 72.0
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Calibri-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AlternativesTableHeaderText": {
+                    "fontName": "Calibri-bold",
+                    "fontSize": 12.0,
+                    "leading": 14.0,
+                    "parent_style": "BodyText"
+                },
+                "BiggerText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 12.0,
+                    "leading": 13.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0
+                },
+                "ColumnsHeaderText": {
+                    "fontName": "Calibri-bold",
+                    "fontSize": 11.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0
+                },
+                "FooterText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 9.0,
+                    "leading": 9.0,
+                    "parent_style": "BodyText"
+                },
+                "HeaderText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 8.0,
+                    "leading": 8.0,
+                    "parent_style": "BodyText"
+                },
+                "Heading1Text": {
+                    "fontName": "Calibri-normal",
+                    "parent_style": "Heading1"
+                },
+                "ParagraphText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 11.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0
+                },
+                "TableBodyText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 9.0,
+                    "leading": 9.0,
+                    "parent_style": "BodyText"
+                },
+                "TableHeaderText": {
+                    "fontName": "Calibri-bold",
+                    "fontSize": 9.0,
+                    "leading": 9.0,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-02-07T19:53:32"
+}

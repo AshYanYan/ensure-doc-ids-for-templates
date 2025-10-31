@@ -1,0 +1,3348 @@
+{
+    "created": "2025-08-20T14:23:21.905202",
+    "id": "225a7e23-faa3-45f3-af31-0f0ad012b4c1",
+    "managed": true,
+    "name": "Centene Marketplace Member CMR Survey 2025 (Multiple SubOrg / Standard Font)",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "hide_for": [
+                        "centene:marketplace:ambetter_from_absolute_total_care:market_place_sc"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:marketplace:ambetter_from_absolute_total_care:market_place_sc"
+                    ],
+                    "string": "AMBSC23-C-08282023-M-1",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:marketplace:ambetter_from_absolute_total_care:market_place_sc"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "table": {
+                    "column_widths": [
+                        216.0,
+                        324.0
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        36.0
+                    ],
+                    "row_template": [
+                        {
+                            "image": {
+                                "alignment": "left",
+                                "height": 36.0,
+                                "max_width": 261.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "BannerText",
+                                    "text_alignment": "right"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 9.0,
+                    "table_items": [
+                        [
+                            {
+                                "filename": "{org_logo}"
+                            },
+                            {
+                                "string": "[patient_org.report.reportPlanName]"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "RIGHT"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        270.0,
+                        270.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "BannerText",
+                                    "text_alignment": "left"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "BannerText",
+                                    "text_alignment": "right"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 9.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "ID: [patient.id]"
+                            },
+                            {
+                                "string": "{patient_last_name_allcaps}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "RIGHT"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "report_text_language_is_english",
+                    "string": "Thank you for taking part in a review of your meds with a pharmacist! This Comprehensive Medication Review (CMR) from the Healthy Living Program [patient_org.report.reportPlanDisplayName] Medication Therapy Management (MTM) Program helps us help you with your health needs. Please let us know how we\u2019re doing. Just answer these six (6) questions below. Then, return in the pre-paid envelope that we gave you. Please fill in <i>only one circle for each question</i> that best tells us about your review. Thank you!",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "string": "Gracias por participar en la revisi\u00f3n de sus medicamentos con el farmac\u00e9utico. Esta revisi\u00f3n integral de medicamentos (CMR) del Healthy Living Program (Programa Medication Therapy Management (MTM) de [patient_org.report.reportPlanDisplayName]) nos permite ayudarle con sus necesidades de salud. Cu\u00e9ntenos c\u00f3mo nos est\u00e1 yendo. Responda las siguientes seis (6) preguntas. Luego, env\u00ede la encuesta en el sobre con franqueo pagado que le brindamos. <b>Marque solo <i>una opci\u00f3n en cada caso</i></b> para describir su revisi\u00f3n. \u00a1Gracias!",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        12.0,
+                        22.0,
+                        80.0,
+                        22.0,
+                        90.0,
+                        22.0,
+                        46.0,
+                        22.0,
+                        102.0,
+                        22.0,
+                        100.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        }
+                    ],
+                    "spaceAfter": 12.0,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"center\">\n  1\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"left\">\n  The representative who set up my medication review (CMR) was polite.\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"left\">\n  El representante que organiz\u00f3 mi revisi\u00f3n integral de medicamentos (CMR) fue amable.\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Strongly agree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Totalmente de acuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Somewhat agree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Algo de acuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Neutral\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Neutral\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": null,
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Somewhat disagree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Algo en desacuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": null,
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Strongly disagree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Totalmente en desacuerdo\n</para>"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "SPAN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    2.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    2.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    2.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    3.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    3.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    5.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    5.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    7.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    7.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    9.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    9.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        12.0,
+                        22.0,
+                        80.0,
+                        22.0,
+                        90.0,
+                        22.0,
+                        46.0,
+                        22.0,
+                        102.0,
+                        22.0,
+                        100.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        }
+                    ],
+                    "spaceAfter": 12.0,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"center\">\n  2\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"left\">\n  The pharmacist who handled my medication review (CMR) helped me know more about my medications.\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"left\">\n  El farmac\u00e9utico que tuvo a cargo la revisi\u00f3n de mis medicamentos (CMR) me ayud\u00f3 a saber m\u00e1s sobre ellos.\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Strongly agree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Totalmente de acuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Somewhat agree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Algo de acuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Neutral\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Neutral\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": null,
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Somewhat disagree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Algo en desacuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": null,
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Strongly disagree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Totalmente en desacuerdo\n</para>"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "SPAN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    2.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    2.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    2.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    3.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    3.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    5.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    5.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    7.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    7.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    9.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    9.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        12.0,
+                        22.0,
+                        80.0,
+                        22.0,
+                        90.0,
+                        22.0,
+                        46.0,
+                        22.0,
+                        102.0,
+                        22.0,
+                        100.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        }
+                    ],
+                    "spaceAfter": 12.0,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"center\">\n  3\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"left\">\n  The Medication Action Plan (MAP) & Personal Medication List (PML) mailed to me were easy to read.\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"left\">\n  El plan de acci\u00f3n para medicamentos (MAP) y la lista personal de medicamentos (PML) que me enviaron eran f\u00e1ciles de leer.\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Strongly agree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Totalmente de acuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Somewhat agree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Algo de acuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Neutral\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Neutral\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": null,
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Somewhat disagree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Algo en desacuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": null,
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Strongly disagree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Totalmente en desacuerdo\n</para>"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "SPAN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    2.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    2.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    2.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    3.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    3.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    5.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    5.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    7.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    7.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    9.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    9.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        12.0,
+                        22.0,
+                        80.0,
+                        22.0,
+                        90.0,
+                        22.0,
+                        46.0,
+                        22.0,
+                        102.0,
+                        22.0,
+                        100.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        }
+                    ],
+                    "spaceAfter": 12.0,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"center\">\n  4\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"left\">\n  I will share the medication list that I got in the packet mailed to me after my medication review (CMR) with my doctors.\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"left\">\n  Compartir\u00e9 con mis m\u00e9dicos la lista de medicamentos que recib\u00ed en el paquete enviado despu\u00e9s de la revisi\u00f3n de medicamentos (CMR).\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Strongly agree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Totalmente de acuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Somewhat agree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Algo de acuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Neutral\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Neutral\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": null,
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Somewhat disagree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Algo en desacuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": null,
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Strongly disagree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Totalmente en desacuerdo\n</para>"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "SPAN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    2.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    2.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    2.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    3.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    3.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    5.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    5.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    7.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    7.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    9.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    9.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        12.0,
+                        22.0,
+                        80.0,
+                        22.0,
+                        90.0,
+                        22.0,
+                        46.0,
+                        22.0,
+                        102.0,
+                        22.0,
+                        100.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        }
+                    ],
+                    "spaceAfter": 12.0,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"center\">\n  5\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"left\">\n  I found the medication review (CMR) service to be of value.\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"left\">\n  Me pareci\u00f3 que el servicio de revisi\u00f3n de medicamentos (CMR) es valioso.\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Strongly agree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Totalmente de acuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Somewhat agree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Algo de acuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Neutral\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Neutral\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": null,
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Somewhat disagree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Algo en desacuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": null,
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Strongly disagree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Totalmente en desacuerdo\n</para>"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "SPAN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    2.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    2.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    2.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    3.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    3.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    5.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    5.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    7.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    7.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    9.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    9.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        12.0,
+                        22.0,
+                        80.0,
+                        22.0,
+                        90.0,
+                        22.0,
+                        46.0,
+                        22.0,
+                        102.0,
+                        22.0,
+                        100.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        }
+                    ],
+                    "spaceAfter": 12.0,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"center\">\n  6\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"left\">\n  I plan to take part in a medication review (CMR) again next year.\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=14.399999999999999 alignment=\"left\">\n  Pienso volver a participar en una revisi\u00f3n integral de medicamentos (CMR) el a\u00f1o que viene.\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Strongly agree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Totalmente de acuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Somewhat agree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Algo de acuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Neutral\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Neutral\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": null,
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Somewhat disagree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Algo en desacuerdo\n</para>"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<para fontName=\"Arial-Unicode-normal\" textColor=\"rgb(188,212,237)\" fontSize=24 leading=24 align=\"right\">\n  \u25ef\n</para>"
+                            },
+                            {
+                                "string": null,
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Strongly disagree\n</para>",
+                                        "Spanish": "<para fontName=\"Arial-Narrow-normal\" fontSize=12 leading=12 alignment=\"left\">\n  Totalmente en desacuerdo\n</para>"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "SPAN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    2.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    2.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    2.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "OUTLINE": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.825,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    3.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    3.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    5.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    5.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    7.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    7.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    9.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    9.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "100%"
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        null,
+                        20.0,
+                        20.0,
+                        20.0,
+                        20.0,
+                        20.0
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        },
+                        {
+                            "paragraph": {}
+                        }
+                    ],
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "",
+                                "string_replacements": {
+                                    "default": {
+                                        "English": "More Comments:",
+                                        "Spanish": "M\u00e1s comentarios:"
+                                    }
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "NOSPLIT": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBELOW": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.5,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ],
+                    "topPadder": false
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 63.0,
+                "left": 48.0,
+                "right": 48.0,
+                "top": 18.0
+            },
+            "pagination": {
+                "font_leading": 10.0,
+                "font_name": "Arial-normal",
+                "font_size": 10.0,
+                "hide_if_single_page": true,
+                "show": true,
+                "y": 18.0
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "orientation": "portrait",
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "BannerText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 13.0,
+                    "leading": 13.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "BannerText1": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "BannerText"
+                },
+                "BannerText2": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "BannerText"
+                },
+                "BannerText3": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "BannerText"
+                },
+                "BannerText4": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "BannerText"
+                },
+                "BannerText5": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "BannerText"
+                },
+                "CommentsText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 10.0,
+                    "leading": 10.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DisclaimerText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DocIdText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 9.0,
+                    "leading": 10.799999999999999,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterFormIdText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 10.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText1": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText2": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText3": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText4": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "Header4ParagraphText": {
+                    "fontName": "Arial-bold",
+                    "parent_style": "ParagraphText",
+                    "spaceAfter": 2.0
+                },
+                "ListItemParagraphText": {
+                    "parent_style": "ParagraphText",
+                    "spaceAfter": 2.0
+                },
+                "ParagraphHeader": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 18.0,
+                    "leading": 18.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphMoreSpaceAfterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 18.0,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphNarrowText": {
+                    "fontName": "Arial-Narrow-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.399999999999999,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphPaperReductionActionText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "ParagraphPullOutText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 14.399999999999999,
+                    "leading": 17.279999999999998,
+                    "parent_style": "BodyText",
+                    "text_alignment": "center"
+                },
+                "ParagraphSignature": {
+                    "fontName": "Lucida-Handwriting-normal",
+                    "fontSize": 18.0,
+                    "leading": 21.599999999999998,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 9.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphSomeSpaceAfterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12.0,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.399999999999999,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "SmallParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 8.0,
+                    "leading": 9.599999999999998,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 9.599999999999998,
+                    "spaceBefore": 1.3333333333333333,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-08-20T14:23:21.905202"
+}

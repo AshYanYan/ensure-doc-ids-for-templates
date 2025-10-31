@@ -1,0 +1,1139 @@
+{
+    "created": "2025-10-14T11:40:07.645923",
+    "id": "b169e11a-b02c-4667-9846-1d7c1532c824",
+    "managed": true,
+    "name": "Centene Medicare Member DMP Initial Notice 2025 (Multiple SubOrg / Standard Font)",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 1.8,
+                    "string": "Y0020_WCM_4154656_ENG_C Internal Approved 04162025",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 73.02857142857144
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 1.8,
+                    "string": "4154656_NA5WCMLTRENG_M",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 73.02857142857144
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 1.8,
+                    "string": "Form CMS-10874",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 51.42857142857143
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 1.8,
+                    "string": "OMB Approval No. 0938-1465 (Expires 11/30/2027)",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 51.42857142857143
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 1.8,
+                    "string": "Form CMS-1087",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 51.42857142857143
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 1.8,
+                    "string": "OMB Approval No. 0938-1465 (Expires 11/30/2027)",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 51.42857142857143
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "DEPARTMENT OF HEALTH AND HUMAN SERVICES<br/> CENTERS FOR MEDICARE & MEDICAID SERVICES",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>This is important information about your Medicare Part D prescription drug coverage.</b><br/> <b>Read this notice carefully.</b> For help, please contact us. Please see methods to contact us on the last page under \u201cFor More Information and Help with This Notice.\u201d",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 12.0,
+                        "spaceBefore": 12.0
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "100%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "image": {
+                                "height": 36.0,
+                                "max_width": 360.0
+                            }
+                        }
+                    ],
+                    "spaceAfter": 13.799999999999999,
+                    "table_items": [
+                        [
+                            {
+                                "filename": "{org_logo}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "CENTER"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>NOTICE OF INTENT TO LIMIT YOUR ACCESS TO CERTAIN PART D DRUGS</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 12.0,
+                        "spaceBefore": 12.0,
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "55%",
+                        "45%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 12.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "Date: {prep_date_mmddyyyy}"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "Enrollee's Name: {patient_full_name}"
+                            },
+                            {
+                                "string": "Member Number: {patient_member_id}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "event_data_dmp_medications_opioid__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "hide_conditions": [
+                        "event_data_dmp_medications_benzo__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "string": "You are getting this notice because [patient_org.report.reportPlanName] believes your use of prescription opioids may be unsafe. We plan to place you in our drug management program to better manage your use of these medications.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "event_data_dmp_medications_benzo__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "hide_conditions": [
+                        "event_data_dmp_medications_opioid__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "string": "You are getting this notice because [patient_org.report.reportPlanName] believes your use of prescription benzodiazepines may be unsafe. We plan to place you in our drug management program to better manage your use of these medications.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "event_data_dmp_medications_benzo__display_name__dispense_prescriber__dispensed_date__last_6_months",
+                        "event_data_dmp_medications_opioid__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "string": "You are getting this notice because [patient_org.report.reportPlanName] believes your use of prescription opioids and benzodiazepines may be unsafe. We plan to place you in our drug management program to better manage your use of these medications.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "add_in_a_variable_for_this"
+                    ],
+                    "string": "Based on our review and communications with your prescribers(s), <font backColor=\"#FFFF00\">&lbrack;insert prescriber name(s)&rbrack;</font>, unless we receive additional information from you or your prescriber(s) that assures us that your use of these medications is safe and appropriate, your access to these medications will change as early as {prep_date_mmddyyyy_plus_30_days}. The section \u201cWhat If I Don&rsquo;t Agree?\u201d tells you how to submit this information.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_conditions": [
+                        "add_in_a_variable_for_this"
+                    ],
+                    "string": "We have contacted your prescriber(s), <font backColor=\"#FFFF00\">&lbrack;insert prescriber name(s)&rbrack;</font>, about your use of these medications but have not received a reply. Unless we receive information from you or your prescriber(s) that assures us that your use of these medications is safe and appropriate, your access to these medications will change as early as {prep_date_mmddyyyy_plus_30_days}. The section \u201cWhat If I Don&rsquo;t Agree?\u201d tells you how to submit this information.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What Action Do We Intend to Take?</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Based on information available at the time of our review, we intend to limit your drug access in the following way(s), unless you provide us with information that changes our decision within 30 days of this notice:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "h_alignment": "left",
+                    "spaceAfter": 12.0,
+                    "spaceBefore": 12.0,
+                    "width": "55%"
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "event_data_dmp_medications_opioid__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "hide_conditions": [
+                        "event_data_dmp_medications_benzo__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "string": "You will be required to get your prescription opioids from the following prescriber(s):",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6.0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "event_data_dmp_medications_benzo__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "hide_conditions": [
+                        "event_data_dmp_medications_opioid__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "string": "You will be required to get your prescription benzodiazepines from the following prescriber(s):",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6.0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "event_data_dmp_medications_benzo__display_name__dispense_prescriber__dispensed_date__last_6_months",
+                        "event_data_dmp_medications_opioid__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "string": "You will be required to get your prescription opioids and benzodiazepines from the following prescriber(s):",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6.0
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "100%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "bullet_text": "-",
+                                "text_style": {
+                                    "backColor": "#FFFFBB",
+                                    "bulletIndent": 36.0,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 6.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "<font backColor=\"#FFFF00\">&lbrack;insert name, address and telephone number of prescriber(s)&rbrack;</font>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<font backColor=\"#FFFF00\">...</font>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<font backColor=\"#FFFF00\">...</font>"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We will not cover these medications at the pharmacy when they are prescribed to you by other prescribers <font backColor=\"#FFFF00\">even if the other prescriber is in our network</font>. You can ask us to use a different prescriber by contacting us or by filling out the form at the end of this notice.",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "event_data_dmp_medications_opioid__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "hide_conditions": [
+                        "event_data_dmp_medications_benzo__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "string": "You will be required to get your prescription opioids from the following pharmacy(ies):",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6.0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "event_data_dmp_medications_benzo__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "hide_conditions": [
+                        "event_data_dmp_medications_opioid__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "string": "You will be required to get your prescription benzodiazepines from the following pharmacy(ies):",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6.0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "event_data_dmp_medications_benzo__display_name__dispense_prescriber__dispensed_date__last_6_months",
+                        "event_data_dmp_medications_opioid__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "string": "You will be required to get your prescription opioids and benzodiazepines from the following pharmacy(ies):",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6.0
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "100%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "bullet_text": "-",
+                                "text_style": {
+                                    "backColor": "#FFFFBB",
+                                    "bulletIndent": 36.0,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 6.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "<font backColor=\"#FFFF00\">&lbrack;insert name, address and telephone number of pharmacy(ies)&rbrack;</font>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<font backColor=\"#FFFF00\">...</font>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<font backColor=\"#FFFF00\">...</font>"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We will not cover these medications at another pharmacy, even if the other pharmacy is in the plan\u2019s network. You can ask us to use a different pharmacy by contacting us or by filling out the form at the end of this notice.",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We will only cover the following prescription opioid pain medication(s): <font backColor=\"#FFFF00\">&lbrack;list medications and amounts, if applicable&rbrack;</font>",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We will not cover any other prescription opioid medications, even if they are included on the plan\u2019s drug list.",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We will not cover any prescription opioid pain medication, including <font backColor=\"#FFFF00\">&lbrack;insert beneficiary\u2019s opioid medication name(s)&rbrack;</font>.  This includes opioids that are on the plan\u2019s drug list.",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We will only cover the following benzodiazepines: <font backColor=\"#FFFF00\">&lbrack;list medications and amounts, if applicable&rbrack;</font>",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We will not cover any other benzodiazepines, even if they are included on the plan\u2019s drug list.",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We will not cover any benzodiazepines, including <font backColor=\"#FFFF00\">&lbrack;insert beneficiary\u2019s benzodiazepine name(s)&rbrack;</font>.  This includes benzodiazepines that are on the plan\u2019s drug list.",
+                    "text_style": {
+                        "backColor": "#FFFFBB",
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "event_data_dmp_medications_opioid__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "hide_conditions": [
+                        "event_data_dmp_medications_benzo__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "string": "This change only affects your access to prescription opioids. Your access to other types of medications will not change.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "event_data_dmp_medications_benzo__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "hide_conditions": [
+                        "event_data_dmp_medications_opioid__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "string": "This change only affects your access to prescription benzodiazepines. Your access to other types of medications will not change.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "event_data_dmp_medications_benzo__display_name__dispense_prescriber__dispensed_date__last_6_months",
+                        "event_data_dmp_medications_opioid__display_name__dispense_prescriber__dispensed_date__last_6_months"
+                    ],
+                    "string": "This change only affects your access to prescription opioids and benzodiazepines. Your access to other types of medications will not change.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Can I Change Plans?</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Generally, no. As of {prep_date}, you can only change plans during the year in very limited situations, such as if you move out of the plan\u2019s service area or you lose or have a change in your Extra Help with your prescription drug costs. You can also change plans during the Annual Enrollment Period which occurs every year from October 15 \u2013 December 7.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What Is a Drug Management Program?</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "[patient_org.report.reportPlanDisplayName] has a drug management program to help you use prescription opioids safely. Opioids are a class of drugs that include pain relievers available legally by prescription, such as oxycodone (OxyContin\u00ae), hydrocodone (Vicodin\u00ae), codeine, morphine, and many others. Opioid pain medications can help with certain types of pain, but have serious risks like addiction, overdose, and death. These risks are increased when opioids are obtained from multiple prescribers or pharmacies; when opioids are taken with certain other medications like benzodiazepines (commonly used for anxiety and sleep); and/or when a person taking opioids has a recent history of opioid overdose. If we determine that your use of prescription opioids is not safe, we may limit your access to them or to other medications like benzodiazepines under our drug management program.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What If I Don\u2019t Agree?</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_conditions": [
+                        "add_in_a_variable_for_this"
+                    ],
+                    "string": "You have the right to give us any information you think is important to our decision about the safety of your medication use.<br/> If you don\u2019t think the limitation(s) described above should apply to you, you should talk to your prescriber(s) about this notice. We contacted your prescriber(s), <font backColor=\"#FFFF00\">&lbrack;insert names of prescriber(s)&rbrack;</font>, about your use of these medications but have not received a reply. Your prescriber(s) can also give us information about why the limitation(s) should not apply to you.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_conditions": [
+                        "add_in_a_variable_for_this"
+                    ],
+                    "string": "You have the right to give us any information you think is important to our decision about the safety of your medication use.<br/> In making our decision, we got information from your prescriber(s), <font backColor=\"#FFFF00\">&lbrack;insert names of prescriber(s)&rbrack;</font>. If you don\u2019t think the limitation(s) described above should apply to you, please tell us why. We have shared a copy of this notice with your prescriber(s). You should also talk to them about this notice and next steps.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you or your prescriber has information you would like us to consider, you can contact us at:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Phone: <font backColor=\"#FFFF00\">1-866-339-2787 (TTY: 711)</font><br/> Fax: <font backColor=\"#FFFF00\">1-877-849-5074</font><br/> Address: <font backColor=\"#FFFF00\">rDUR Case Management Services<br/> P.O. Box 31403 Tampa<br/> FL 33631-3403</font>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Note:&nbsp;&nbsp;We are not allowed to limit your access under the drug management program if you are being treated for cancer-related pain or have sickle cell disease, you\u2019re in hospice or get palliative or end-of-life care, or you live in a long-term care facility. If any of these apply to you or you have any other information you would like us to consider, please contact us within the next 30 days. See options to contact us in the section For More Information and Help with This Notice below.</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What If I Want to Use a Different <insert as appropriate:> <font backColor=\"#FFFF00\">&lbrack;Pharmacy or Prescriber, or Pharmacy or Prescriber&rbrack;</font>?</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you don\u2019t want to use the <font backColor=\"#FFFF00\">&lbrack;pharmacy or prescriber or pharmacy or prescriber&rbrack;</font> we selected for you, you can ask to use a different one. You can give us this information by completing the last page of this notice and sending it to us, or by contacting us at the phone number below.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What Happens Next?</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We will review any information you send us. We will also review any new information from your prescriber(s). After we make a decision about whether you are safely using your medications, we will send you another notice within 60 days. You will receive another notice if we decide you\u2019re not at risk and will not limit your access to these drugs. You will also receive another notice if we decide you\u2019re at risk and limit your access to these drugs.  This notice will explain how you, your prescriber, or your representative can ask for an appeal and, if you choose to appeal, we will review your case and give you a decision. If we continue to deny any part of your request related to the limitations that apply to your access to medications, we will automatically send your case to an independent reviewer outside of our plan.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Note:&nbsp;&nbsp;If you change to a different Medicare drug plan, we can give your new plan information about your case and any limitations we place on your drug access under our drug management program. Your new plan may place you in its drug management program as well.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What Happens Next?</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<font backColor=\"#FFFF00\">[patient_org.report.reportPlanDisplayName]</font>'s formularies are designed to promote appropriate access to Part D covered medication-assisted treatment for opioid use disorder, including multiple options placed on a generic and preferred cost-sharing tiers. Rescue therapy options for opioid reversal are also provided on a preferred cost-sharing tier. To learn more about plan benefits related to treatment for prescription drug abuse, including medication assisted treatment, mental health and counseling services, please review your Drug List (Formulary) and Evidence of Coverage. Visit www.hhs.gov/opioids for information about State and Federal public health resources that can help you learn more about opioid medications and how to use them safely, including information about mental health services and other counseling services. Also visit Medicare's webpage www.medicare.gov/coverage/pain-management for information about Medicare's coverage of other pain treatments.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Visit <font color=\"#0563C3\"><b>www.hhs.gov/opioids</b></font> for information about State and Federal public health resources that can help you learn more about opioid medications and how to use them safely, including information about mental health services and other counseling services. Also visit Medicare\u2019s webpage <font color=\"#0563C3\"><b>www.medicare.gov/coverage/pain-management</b></font> for information about Medicare\u2019s coverage of other pain treatments.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>FOR MORE INFORMATION AND HELP WITH THIS NOTICE</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 12.0,
+                        "spaceBefore": 12.0,
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "For more information about the drug management program or any of the information in this notice, please contact [patient_org.report.reportPlanDisplayName] at:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Phone: <font backColor=\"#FFFF00\">1-866-339-2787 (TTY: 711)</font><br/> <font backColor=\"#FFFF00\">Monday-Friday, 8 a.m. to 8 p.m. EST</font><br/> <font backColor=\"#FFFF00\">&lbrack;[Insert plan website&rbrack;</font><br/> <font backColor=\"#FFFF00\">rDUR Case Management Services<br/> P.O. Box 31403 Tampa<br/> FL 33631-3403</font>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "You may also contact one of the organizations listed below for assistance.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "1-800-MEDICARE (1-800-633-4227), 24 hours, 7 days a week. TTY users: 1-877-486-2048",
+                        "Medicare Rights Center: 1-888-HMO-9050",
+                        "State Health Insurance Program National Technical Assistance Center: 1-877-839-2675"
+                    ],
+                    "list_attributes": {
+                        "bulletColor": "black",
+                        "bulletType": "bullet",
+                        "leftIndent": 12.0,
+                        "spaceAfter": 12.0,
+                        "start": "\u2022"
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2.0,
+                        "spaceBefore": 2.0
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "h_alignment": "left",
+                    "keepWithNext": true,
+                    "spaceAfter": 12.0,
+                    "spaceBefore": 24.0,
+                    "width": "55%"
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "<b>PRA Disclosure Statement</b> According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this collection is 0938-1465. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, and gather the data needed, and complete and review the information collection.  If you have any comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to CMS, 7500 Security Boulevard, Attn: PRA Reports Clearance Officer, Baltimore, Maryland 21244-1850.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "CMS does not discriminate in its programs and activities: To request this form in an accessible format (e.g., Braille, Large Print, Audio CD) contact your Medicare Drug Plan. If you need assistance contacting your plan, call:  1-800-MEDICARE.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 75.0,
+                "left": 48.0,
+                "right": 48.0,
+                "top": 48.0
+            },
+            "pagination": {
+                "font_leading": 10.0,
+                "font_name": "Tinos-normal",
+                "font_size": 10.0,
+                "show": true,
+                "y": 18.0
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "orientation": "portrait",
+        "typography": {
+            "fonts": {
+                "Arimo": [
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/arimo/static/Arimo-Regular.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "normal"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/arimo/static/Arimo-Italic.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "italic"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/arimo/static/Arimo-Bold.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "bold"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/arimo/static/Arimo-BoldItalic.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "boldItalic"
+                    }
+                ],
+                "Tinos": [
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/tinos/Tinos-Regular.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "normal"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/tinos/Tinos-Italic.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "italic"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/tinos/Tinos-Bold.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "bold"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/tinos/Tinos-BoldItalic.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "boldItalic"
+                    }
+                ]
+            },
+            "text_styles": {
+                "DisclaimerText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DocIdText": {
+                    "fontName": "Arimo-normal",
+                    "fontSize": 9.0,
+                    "leading": 10.799999999999999,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterFormIdText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Tinos-normal",
+                    "fontSize": 12.0,
+                    "leading": 21.6,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText1": {
+                    "fontName": "Tinos-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText2": {
+                    "fontName": "Tinos-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText3": {
+                    "fontName": "Tinos-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText4": {
+                    "fontName": "Tinos-normal",
+                    "parent_style": "FooterText"
+                },
+                "ListItemParagraphText": {
+                    "parent_style": "ParagraphText",
+                    "spaceAfter": 2.0
+                },
+                "ParagraphHeaderText": {
+                    "fontName": "Tinos-normal",
+                    "fontSize": 12.0,
+                    "leading": 13.799999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 0.0,
+                    "spaceBefore": 0.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphNarrowText": {
+                    "fontName": "Arial-Narrow-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 6.0,
+                    "spaceBefore": 0.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphPaperReductionActionText": {
+                    "fontName": "Tinos-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.049999999999999,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "ParagraphSignature": {
+                    "fontName": "Lucida-Handwriting-normal",
+                    "fontSize": 18.0,
+                    "leading": 20.7,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 9.0,
+                    "spaceBefore": 0.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Tinos-normal",
+                    "fontSize": 12.0,
+                    "leading": 13.799999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12.0,
+                    "spaceBefore": 0.0,
+                    "text_alignment": "left"
+                },
+                "SmallParagraphText": {
+                    "fontName": "Tinos-normal",
+                    "fontSize": 10.0,
+                    "leading": 11.5,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 10.0,
+                    "spaceBefore": 0.0,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-10-14T11:40:07.645923"
+}

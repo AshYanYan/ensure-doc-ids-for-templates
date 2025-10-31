@@ -1,0 +1,538 @@
+{
+    "created": "2023-09-21T20:44:39Z",
+    "id": "b5d70611-b1a9-42eb-a46f-4f9966f2b584",
+    "name": "Mozhi_generator_test",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "Admin Portal Template Feature Test PDF ",
+                    "text_style": {
+                        "fontSize": 20.0,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "CENTER"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "test table header & footer ",
+                    "text_style": {
+                        "fontSize": 14.0,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "CENTER"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "25%",
+                        "15%",
+                        "15%",
+                        "20%",
+                        "25%"
+                    ],
+                    "data_source": "patient_meds",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_footer": [
+                        {
+                            "string": "test footer test footer"
+                        },
+                        {
+                            "string": "test footer 2"
+                        },
+                        {
+                            "string": "test footer 3"
+                        },
+                        {
+                            "string": "test footer 4"
+                        },
+                        {
+                            "string": "test footer 5"
+                        }
+                    ],
+                    "table_header": [
+                        [
+                            {
+                                "paragraph": {
+                                    "string": "Test header 1",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Test header 2",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Test header 3",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Test header 4",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Test header 5",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "CENTER"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    -1.0
+                                ]
+                            }
+                        },
+                        {
+                            "ROWBACKGROUNDS": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#FFFFFF",
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": " test show for & hide for",
+                    "text_style": {
+                        "fontSize": 14.0,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "CENTER"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "blueshield_ca"
+                    ],
+                    "string": "show_for_blueshield_ca_test",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "blueshield_ca"
+                    ],
+                    "string": "hide_for_blueshield_ca_test",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "test bullet in list ",
+                    "text_style": {
+                        "fontSize": 14.0,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "CENTER"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "test_list_1.",
+                        "test_list_2.",
+                        "test_list_3.",
+                        "test_list_4."
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2.0,
+                        "spaceBefore": 2.0
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "test multitable",
+                    "text_style": {
+                        "fontSize": 14.0,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "CENTER"
+                    }
+                }
+            },
+            {
+                "multitable": {
+                    "column_widths": [
+                        100.0,
+                        100.0,
+                        100.0,
+                        100.0,
+                        100.0
+                    ],
+                    "data_source": "patient_meds",
+                    "row_heights": [
+                        6.0,
+                        32.0,
+                        null
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "bulletText": "&#9744",
+                                "spaceAfter": 12.0,
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "bulletText": "&#9744",
+                                "spaceAfter": 12.0,
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "bulletText": "&#9744",
+                                "spaceAfter": 12.0,
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 24.0,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "<b>Test Header:</b>",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ],
+                    "top_border": true
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "\u6388\u4eba\u4ee5\u9c7c\u4e0d\u5982\u6388\u4eba\u4ee5\u6e14",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "parent_style": "TableHeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "The quick brown fox jumps over the lazy dog",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "parent_style": "TableHeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "\u6388\u4eba\u4ee5\u9c7c\u4e0d\u5982\u6388\u4eba\u4ee5\u6e14",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "The quick brown fox jumps over the lazy dog",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "signature": {
+                    "filename": "",
+                    "string": "Wu Lien-Teh"
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30.0,
+                    "x": 576.0,
+                    "y": 706.0
+                }
+            },
+            {
+                "text": {
+                    "height": 30.0,
+                    "string": "logo should be right here",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200.0,
+                    "x": 376.0,
+                    "y": 666.0
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72.0,
+                "left": 72.0,
+                "right": 72.0,
+                "top": 144.0
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": null,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12.0,
+                    "leading": 16.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 24.0,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12.0,
+                    "leading": 16.0,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2023-09-21T20:44:39"
+}

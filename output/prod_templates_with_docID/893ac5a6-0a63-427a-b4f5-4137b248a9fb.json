@@ -1,0 +1,286 @@
+{
+    "created": "2025-09-18T18:25:48Z",
+    "id": "893ac5a6-0a63-427a-b4f5-4137b248a9fb",
+    "managed": false,
+    "name": "ADH_CL_SelectHealth ",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "/images/selecthealth_logo.png",
+                    "height": 45.0,
+                    "x": 425.0,
+                    "y": 770.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8.0,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200.0,
+                    "x": 325.0,
+                    "y": 15.0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 28.0,
+                        "text_alignment": "left"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "rightIndent": 200.0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name}:",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Estimado(a) {patient_full_name}:"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 24.0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Thank you for talking with me on {conversation_date}, about your health and medications.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Gracias por hablar conmigo el {conversation_date} sobre su salud y sus medicamentos."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "This letter includes an action plan (Medication Action Plan) and medication list (Personal Medication List). <b>The action plan has steps you should take to help you get the best results from your medications. The medication list will help you keep track of your medications and how to use them the right way.</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Esta carta incluye un plan de acci\u00f3n (Plan de acci\u00f3n de medicamentos) y una lista de medicamentos (Lista personal de medicamentos). <b>El plan de acci\u00f3n tiene pasos que usted debe seguir para ayudarle a obtener los mejores resultados con sus medicamentos. La lista de medicamentos le ayudar\u00e1 a realizar un seguimiento de sus medicamentos y saber c\u00f3mo usarlos de la manera correcta.</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Have your action plan and medication list with you when you talk with your doctors, pharmacists, and other health care providers.",
+                        "Ask your doctors, pharmacists, and other healthcare providers to update the action plan and medication list at every visit.",
+                        "Take your medication list with you if you go to the hospital.",
+                        "Give a copy of the action plan and medication list to your family or caregivers."
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Spanish": [
+                                "Tenga a mano su plan de acci\u00f3n y lista de medicamentos cuando hable con sus m\u00e9dicos, farmac\u00e9uticos, y otros proveedores de atenci\u00f3n m\u00e9dica.",
+                                "Preg\u00fantele a su m\u00e9dicos, farmac\u00e9uticos, y otros proveedores de atenci\u00f3n m\u00e9dica que actualicen su plan de acci\u00f3n y la lista de medicamentos en cada visita.",
+                                "Lleve su lista de medicamentos con usted si va al hospital.",
+                                "Entregue una copia de su plan de acci\u00f3n y la lista de medicamentos a su familia o cuidadores."
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletFontSize": 14.0,
+                        "bulletType": "bullet",
+                        "leftIndent": 24.0
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36.0
+                    },
+                    "text_style": {
+                        "parent_style": "ListText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you want to talk about this letter or any of the other materials, you can call {hotline_name} at {hotline_phone} (TTY: 711) {hotline_hours}. We look forward to working with you to help you be as healthy as possible.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si usted desea hablar sobre esta carta o cualquier otro material, puede hacer una llamada gratuita a SelectHealth al 801-442-6354 (TTY: 888-444-1531) de Lunes a Viernes de 9AM - 5PM PST. Esperamos trabajar con usted para ayudarle a estar lo m\u00e1s saludable posible."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Warmly,",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Atentamente,"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 24.0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18.0,
+                        "leading": 18.0,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_name}<br/>{pharmacist_role}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "/images/selecthealth_logo.png",
+                    "height": 45.0,
+                    "x": 425.0,
+                    "y": 770.0
+                }
+            },
+            {
+                "text": {
+                    "height": 50.0,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 11.0,
+                        "leading": 11.0,
+                        "space_After": 11.0,
+                        "text_alignment": "left"
+                    },
+                    "width": 212.0,
+                    "x": 28.0,
+                    "y": 565.0
+                }
+            },
+            {
+                "text": {
+                    "height": 12.0,
+                    "string": "Health and wellness or prevention information.",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-bold",
+                        "fontSize": 12.0,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 400.0,
+                    "x": 58.0,
+                    "y": 552.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8.0,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200.0,
+                    "x": 325.0,
+                    "y": 15.0
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72.0,
+                "left": 72.0,
+                "right": 72.0,
+                "top": 50.0
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Arial-normal",
+                "show": true,
+                "skip_cover_page": true
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 14.0,
+                    "leading": 16.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12.0,
+                    "text_alignment": "left"
+                },
+                "FooterPlanText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 11.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "ListText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 14.0,
+                    "leading": 16.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 14.0,
+                    "leading": 16.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12.0,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-09-19T18:08:33"
+}

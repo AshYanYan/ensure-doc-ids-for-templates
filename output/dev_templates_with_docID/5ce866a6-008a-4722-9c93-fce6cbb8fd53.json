@@ -1,0 +1,1048 @@
+{
+    "created": "2025-09-16T11:46:54.875648",
+    "id": "5ce866a6-008a-4722-9c93-fce6cbb8fd53",
+    "managed": true,
+    "name": "Centene Medicare Member Cover Letter 2025 (Multiple SubOrg / Standard Font)",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "sw",
+                    "filename": "{org_logo}",
+                    "height": 54.0,
+                    "hide_for": [
+                        "centene:arine_right"
+                    ],
+                    "max_width": 180.0,
+                    "x": 72.0,
+                    "y": 720.0
+                }
+            },
+            {
+                "image": {
+                    "anchor": "se",
+                    "filename": "{org_logo}",
+                    "height": 54.0,
+                    "max_width": 180.0,
+                    "show_for": [
+                        "centene:arine_right"
+                    ],
+                    "x": 540.0,
+                    "y": 720.0
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1.0,
+                    "x_end": 540.0,
+                    "x_start": 72.0,
+                    "y_end": 61.8,
+                    "y_start": 61.8
+                }
+            },
+            {
+                "text": {
+                    "height": 7.0,
+                    "string": "Form CMS-10396 (Expires: 12/27)",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Formulario de CMS-10396 (Vence: 12/27)"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "FooterFormIdText"
+                    },
+                    "width": 468.0,
+                    "x": 72.0,
+                    "y": 53.4
+                }
+            },
+            {
+                "text": {
+                    "height": 7.0,
+                    "string": "Form Approved OMB No. 0938-1154",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Formulario aprobado No. de OMB 0938-1154"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "FooterFormIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 468.0,
+                    "x": 72.0,
+                    "y": 53.4
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "string": "Y0020_WCM_174538E_C Internal Approved 02112025",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 468.0,
+                    "x": 72.0,
+                    "y": 36.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "string": "NA5WCMLTR74538E_0000",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 468.0,
+                    "x": 72.0,
+                    "y": 36.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "string": "Y0020_WCM_174538S_C Internal Approved 02112025",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 468.0,
+                    "x": 72.0,
+                    "y": 36.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "string": "NA5WCMLTR75040S_0000",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 468.0,
+                    "x": 72.0,
+                    "y": 36.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "table": {
+                    "column_widths": [
+                        "60%",
+                        "40%"
+                    ],
+                    "data_source": "table_items",
+                    "hide_condition": "patient_caregiver",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontName": "Times-New-Roman-normal",
+                                    "fontSize": 12.0,
+                                    "parent_style": "ParagraphPullOutText",
+                                    "text_alignment": "justify"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 16.8,
+                    "table_items": [
+                        [
+                            {
+                                "string": "\n<i>{prep_date}</i><br/> <br/> <i>{patient_full_address}</i> <br/> <br/> Dear <i>{patient_full_name}</i>,",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "\n<i>{prep_date}</i><br/> <br/> <i>{patient_full_address}</i> <br/> <br/> Saludo <i>{patient_full_name}</i>,"
+                                    }
+                                }
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    12.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    12.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "60%",
+                        "40%"
+                    ],
+                    "data_source": "table_items",
+                    "display_condition": "patient_caregiver",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontName": "Times-New-Roman-normal",
+                                    "fontSize": 12.0,
+                                    "parent_style": "ParagraphPullOutText",
+                                    "text_alignment": "justify"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 16.8,
+                    "table_items": [
+                        [
+                            {
+                                "string": "\n<i>{prep_date}</i><br/> <br/> <i>{patient_full_address}</i> <br/> <br/> Dear <i>{patient_full_name}</i>,",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "\n<i>{prep_date}</i><br/> <br/> <i>{patient_full_address}</i> <br/> <br/> Saludo <i>{patient_full_name}</i>,"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "NOTE: A review of your medications was done on {conversation_date} with {patient_caregiver} who served on your behalf. Here is a summary of your medication review.",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<i>NOTA: Se realiz\u00f3 una revisi\u00f3n de sus medicamentos el {conversation_date} con {patient_caregiver} quien actu\u00f3 en su nombre. A continuaci\u00f3n, se incluye un resumen de la revisi\u00f3n de sus medicamentos.</i>"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    12.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    12.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Thank you for talking with me on {cmr_date}, about your health and medications. As a follow-up to our conversation, I have included two documents:",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Gracias por hablar conmigo el d\u00eda <i>{cmr_date}</i> acerca de su salud y medicamentos. Para hacer seguimiento a nuestra conversaci\u00f3n, le adjunto dos documentos:"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Your <b>Recommended To-Do List</b> has steps you should take to get the best results from your medications.",
+                        "Your <b>Medication List</b> will help you keep track of your medications and how to take them."
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Spanish": [
+                                "Su <b>Lista de Cosas Para Hacer</b> incluye los pasos que usted debe seguir para obtener los mejores resultados de sus medicamentos.",
+                                "Su <b>Lista de Medicamentos</b> le ayudar\u00e1 a monitorear sus medicamentos y saber cu\u00e1ndo y c\u00f3mo tomarlos."
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletFormat": "%s.",
+                        "bulletType": "1",
+                        "leftIndent": 24.0
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36.0
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you want to talk about these documents, please call <i>[patient_org.report.reportPlanDisplayName] Healthy Living Program</i> at <i>the Healthline hotline at 1-866-339-2787 (TTY 711), Monday\u2013Friday, 8 a.m. to 8 p.m. Eastern.</i>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si usted quiere hablar acerca de estos documentos adjuntos, por favor ll\u00e1me/nos <i>[patient_org.report.reportPlanDisplayName] Healthy Living Program</i> al l\u00ednea directa de <i>Healthline Hotline al 1-866-339-2787 (TTY 711), de lunes a viernes, de 8 a.m. a 8 p.m., hora del este. </i>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "I look forward to working with you and your doctors to make sure your medications work well for you.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Espero poder trabajar con usted y sus doctores para asegurarnos que sus medicamentos son efectivos."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Muchas gracias por su atenci\u00f3n,"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_approval_is_required_and_status_is_approved_and_user_exists",
+                    "string": "<font fontName=\"MrDeHaviland-normal\" fontSize=\"32\">{pharmacist_name}&nbsp;&nbsp;&nbsp;</font>",
+                    "text_style": {
+                        "leading": 32.0,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "report_approval_is_required_and_status_is_approved_and_user_exists",
+                    "string": "<font fontName=\"MrDeHaviland-normal\" fontSize=\"32\">{pharmacist_name}</font>&nbsp; and <font fontName=\"MrDeHaviland-normal\" fontSize=\"32\">{pharmacist_approver_name}</font>&nbsp;&nbsp;&nbsp;",
+                    "text_style": {
+                        "leading": 32.0,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_approval_is_required_and_status_is_approved_and_user_exists",
+                    "string": "{pharmacist_name}, {pharmacist_job_title}, [patient_org.report.reportPlanDisplayName]",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 0.0,
+                        "spaceBefore": 0.0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "report_approval_is_required_and_status_is_approved_and_user_exists",
+                    "string": "{pharmacist_name}, {pharmacist_job_title} and {pharmacist_approver_name}, {pharmacist_approver_job_title}, [patient_org.report.reportPlanDisplayName]",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "{pharmacist_name}, {pharmacist_job_title} y {pharmacist_approver_name}, {pharmacist_approver_job_title}, [patient_org.report.reportPlanDisplayName]"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 0.0,
+                        "spaceBefore": 0.0
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "100%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphPaperReductionActionText",
+                                    "text_alignment": "justify"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [
+                        [
+                            {
+                                "string": "According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB number for this information collection is 0938-1154. The time required to complete this information collection is estimated to average 40 minutes per response, including the time to review instructions, searching existing data resources, gather the data needed, and complete and review the information collection. If you have any comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: CMS, Attn: PRA Reports Clearance Officer, 7500 Security Boulevard, Baltimore, Maryland 21244-1850",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "De conformidad con la Ley de reducci\u00f3n de los tr\u00e1mites burocr\u00e1ticos de 1995, nadie estar\u00e1 obligado a responder a una solicitud de informaci\u00f3n a menos que se identifique con un n\u00famero de control v\u00e1lido de la Oficina de Administraci\u00f3n y Presupuesto. El n\u00famero de control v\u00e1lido de la Oficina de Administraci\u00f3n y Presupuesto para esta recolecci\u00f3n de informaci\u00f3n es 0938-1154. El tiempo necesario para completar esta solicitud es en promedio, 40 minutos incluido el tiempo necesario para revisar las instrucciones, buscar en las fuentes de datos existentes, selecciona r los datos necesarios y completarla. Si tiene comentarios sobre el tiempo estimado para responder o sugerencias para mejorar este formulario, s\u00edrvase escribir a: CMS, Attn: PRA Reports Clearance Officer, 7500 Security Boulevard, Baltimore, Maryland 21244-1850"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LINEABOVE": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBELOW": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ],
+                    "topPadder": true
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "sw",
+                    "filename": "{org_logo}",
+                    "height": 54.0,
+                    "hide_for": [
+                        "centene:arine_right"
+                    ],
+                    "max_width": 180.0,
+                    "x": 72.0,
+                    "y": 720.0
+                }
+            },
+            {
+                "image": {
+                    "anchor": "se",
+                    "filename": "{org_logo}",
+                    "height": 54.0,
+                    "max_width": 180.0,
+                    "show_for": [
+                        "centene:arine_right"
+                    ],
+                    "x": 540.0,
+                    "y": 720.0
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1.0,
+                    "x_end": 540.0,
+                    "x_start": 72.0,
+                    "y_end": 61.8,
+                    "y_start": 61.8
+                }
+            },
+            {
+                "text": {
+                    "height": 7.0,
+                    "string": "Form CMS-10396 (Expires: 12/27)",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Formulario de CMS-10396 (Vence: 12/27)"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "FooterFormIdText"
+                    },
+                    "width": 468.0,
+                    "x": 72.0,
+                    "y": 53.4
+                }
+            },
+            {
+                "text": {
+                    "height": 7.0,
+                    "string": "Form Approved OMB No. 0938-1154",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Formulario aprobado No. de OMB 0938-1154"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "FooterFormIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 468.0,
+                    "x": 72.0,
+                    "y": 53.4
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "string": "Y0020_WCM_174538E_C Internal Approved 02112025",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 468.0,
+                    "x": 72.0,
+                    "y": 36.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "string": "NA5WCMLTR74538E_0000",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 468.0,
+                    "x": 72.0,
+                    "y": 36.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "string": "Y0020_WCM_174538S_C Internal Approved 02112025",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 468.0,
+                    "x": 72.0,
+                    "y": 36.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "string": "NA5WCMLTR75040S_0000",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 468.0,
+                    "x": 72.0,
+                    "y": 36.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72.0,
+                "left": 66.0,
+                "right": 66.0,
+                "top": 81.0
+            },
+            "pagination": {
+                "font_leading": 10.0,
+                "font_name": "Arial-normal",
+                "font_size": 10.0,
+                "show": true,
+                "y": 18.0
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "orientation": "portrait",
+        "typography": {
+            "fonts": {
+                "MrDeHaviland": [
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/ofl/mrdehaviland/MrDeHaviland-Regular.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "normal"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/ofl/mrdehaviland/MrDeHaviland-Regular.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "italic"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/ofl/mrdehaviland/MrDeHaviland-Regular.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "bold"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/ofl/mrdehaviland/MrDeHaviland-Regular.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "boldItalic"
+                    }
+                ]
+            },
+            "text_styles": {
+                "DisclaimerText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DocIdText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 9.0,
+                    "leading": 10.799999999999999,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterFormIdText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 10.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText1": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText2": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText3": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText4": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "Header4ParagraphText": {
+                    "fontName": "Arial-bold",
+                    "parent_style": "ParagraphText",
+                    "spaceAfter": 2.0
+                },
+                "HeaderText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 10.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "ListItemParagraphText": {
+                    "parent_style": "ParagraphText",
+                    "spaceAfter": 2.0
+                },
+                "ParagraphHeader": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 18.0,
+                    "leading": 18.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphMoreSpaceAfterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 14.0,
+                    "leading": 16.8,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 21.0,
+                    "spaceBefore": 2.3333333333333335,
+                    "text_alignment": "left"
+                },
+                "ParagraphNarrowText": {
+                    "fontName": "Arial-Narrow-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.399999999999999,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphPaperReductionActionText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "ParagraphPullOutText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 16.8,
+                    "leading": 20.16,
+                    "parent_style": "BodyText",
+                    "text_alignment": "center"
+                },
+                "ParagraphSignature": {
+                    "fontName": "Lucida-Handwriting-normal",
+                    "fontSize": 18.0,
+                    "leading": 21.599999999999998,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 9.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphSomeSpaceAfterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 14.0,
+                    "leading": 16.8,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0,
+                    "spaceBefore": 2.3333333333333335,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 14.0,
+                    "leading": 16.8,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 16.8,
+                    "spaceBefore": 2.3333333333333335,
+                    "text_alignment": "left"
+                },
+                "SmallParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 9.333333333333332,
+                    "leading": 11.2,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 11.2,
+                    "spaceBefore": 1.5555555555555556,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-09-16T11:46:54.875648"
+}

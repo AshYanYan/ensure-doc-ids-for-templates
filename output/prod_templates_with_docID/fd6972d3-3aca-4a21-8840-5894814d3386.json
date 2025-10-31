@@ -1,0 +1,786 @@
+{
+    "created": "2025-08-20T09:26:33.951600",
+    "id": "fd6972d3-3aca-4a21-8840-5894814d3386",
+    "managed": true,
+    "name": "Centene Medicaid Prescriber Fax Cover Sheet (NH Multiple SubOrg / Standard Font)",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 23.400000000000002
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "table": {
+                    "column_widths": [
+                        252.0,
+                        252.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "image": {
+                                "alignment": "left",
+                                "height": 36.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "right"
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "centene:medicaid:nh_healthy_families:gshp"
+                    ],
+                    "spaceAfter": 30.0,
+                    "table_items": [
+                        [
+                            {
+                                "filename": "{org_logo}"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "RIGHT"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        252.0,
+                        252.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "image": {
+                                "alignment": "left",
+                                "height": 72.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "right"
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "centene:marketplace:ambetter_from_nh_healthy_families:market_place_nh"
+                    ],
+                    "spaceAfter": 30.0,
+                    "table_items": [
+                        [
+                            {
+                                "filename": "{org_logo}"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "RIGHT"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "height": 72.0,
+                    "string": "<b>COMMUNICATION COVER SHEET</b>",
+                    "text_style": {
+                        "fontSize": 16.0,
+                        "leading": 13.75,
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 25.0,
+                        "spaceBefore": 25.0,
+                        "text_alignment": "left"
+                    },
+                    "width": 216.0,
+                    "x": 54.0,
+                    "y": 576.0
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        252.0,
+                        252.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "left"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "left"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 20.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "{provider_full_name}"
+                            },
+                            {
+                                "string": "Phone: {provider_phone} <br/> Fax: {provider_fax}<br/> Via: Fax <br/>"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "RIGHT"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "100%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "left"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 20.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "\nSubject: Opportunities to improve prescription drug use and therapeutic outcomes"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LINEBELOW": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.5,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "RIGHT"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_prefix} {provider_full_name},",
+                    "text_style": {
+                        "leading": 13.75,
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "[patient_org.report.reportPlanDisplayName] is committed to enriching the lives of its patients by improving health outcomes and ensuring the judicious use of medication.",
+                    "text_style": {
+                        "leading": 13.75,
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We identified your patient, {patient_full_name}, as having potential therapeutic opportunities. Please review the statements on the attached list for possible courses of action.",
+                    "text_style": {
+                        "leading": 13.75,
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "[patient_org.report.reportPlanDisplayName] preferred drug list (PDL) may be viewed at:<br/>[patient_org.report.reportFormularyLink|NA]",
+                    "text_style": {
+                        "leading": 13.75,
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Note</b>: The patient is currently enrolled in <b>[patient_org.report.reportPlanDisplayName]</b>.",
+                    "text_style": {
+                        "leading": 13.75,
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "For any medication changes, the patient's pharmacy may be contacted:",
+                    "text_style": {
+                        "leading": 13.75,
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 0.0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Pharmacy: <b>{pharmacy_name}</b>. Phone: <b>{pharmacy_phone}</b>.",
+                    "text_style": {
+                        "leading": 13.75,
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Please contact me if you have any additional questions.",
+                    "text_style": {
+                        "leading": 13.75,
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Thank you.",
+                    "text_style": {
+                        "leading": 13.75,
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "text_style": {
+                        "leading": 13.75,
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_name}<br/> {pharmacist_job_title}<br/> [patient_org.report.reportPlanDisplayName] Healthline Hotline",
+                    "text_style": {
+                        "fontSize": 11.0,
+                        "leading": 13.75,
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 0.0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Phone: 1-866-339-2787 (TTY 711) <br/> Fax: 1-877-849-5074",
+                    "text_style": {
+                        "fontSize": 12.0,
+                        "leading": 13.75,
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 0.0
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 90.0,
+                "left": 48.0,
+                "right": 48.0,
+                "top": 18.0
+            },
+            "pagination": {
+                "font_leading": 10.0,
+                "font_name": "Arial-normal",
+                "font_size": 10.0,
+                "hide_if_single_page": true,
+                "show": true,
+                "y": 23.400000000000002
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "orientation": "portrait",
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 11.0,
+                    "leading": 13.75,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DisclaimerText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DocIdText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 9.0,
+                    "leading": 10.799999999999999,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterFormIdText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 10.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText1": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText2": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText3": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText4": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "Header4ParagraphText": {
+                    "fontName": "Arial-bold",
+                    "parent_style": "ParagraphText",
+                    "spaceAfter": 2.0
+                },
+                "ListItemParagraphText": {
+                    "parent_style": "ParagraphText",
+                    "spaceAfter": 2.0
+                },
+                "ParagraphHeader": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 18.0,
+                    "leading": 18.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphMoreSpaceAfterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 11.0,
+                    "leading": 13.75,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 16.5,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphNarrowText": {
+                    "fontName": "Arial-Narrow-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.399999999999999,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphPaperReductionActionText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.75,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "ParagraphPullOutText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 13.2,
+                    "leading": 16.5,
+                    "parent_style": "BodyText",
+                    "text_alignment": "center"
+                },
+                "ParagraphSignature": {
+                    "fontName": "Lucida-Handwriting-normal",
+                    "fontSize": 18.0,
+                    "leading": 22.5,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 9.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphSomeSpaceAfterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 11.0,
+                    "leading": 13.75,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 11.0,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 11.0,
+                    "leading": 13.75,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 13.2,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "SmallParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.333333333333333,
+                    "leading": 9.166666666666666,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 8.799999999999999,
+                    "spaceBefore": 1.3333333333333333,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-08-20T09:26:33.951600"
+}

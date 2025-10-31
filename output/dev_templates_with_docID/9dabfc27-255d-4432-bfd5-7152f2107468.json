@@ -1,0 +1,565 @@
+{
+    "created": "2025-03-16T00:56:19Z",
+    "id": "9dabfc27-255d-4432-bfd5-7152f2107468",
+    "managed": true,
+    "name": "DMP Alternative Second Notice (ESI 2025 / Standard Footer)",
+    "program": "DMP",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 12.0,
+                    "string": "Form CMS-10874",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "left"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 142.0
+                }
+            },
+            {
+                "text": {
+                    "height": 12.0,
+                    "string": "OMB Approval No. 0938-1465 (Expires 11/30/2027)",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 142.0
+                }
+            },
+            {
+                "text": {
+                    "height": 12.0,
+                    "hide_condition": "report_parameters__variables__footer_variable_client_approval_code__exclude",
+                    "string": "{report_parameters__variables__footer_variable_client_approval_code__value}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 128.0
+                }
+            },
+            {
+                "text": {
+                    "height": 75.0,
+                    "hide_condition": "report_parameters__variables__footer_variable_disclaimer__exclude",
+                    "string": "{report_parameters__variables__footer_variable_disclaimer__value}",
+                    "text_style": {
+                        "parent_style": "FooterDisclaimerText",
+                        "text_alignment": "center"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 30.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 23.0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "DEPARTMENT OF HEALTH AND HUMAN SERVICES<br/>CENTERS FOR MEDICARE & MEDICAID SERVICES",
+                    "text_style": {
+                        "fontSize": 10.0,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        400.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "image": {
+                                "height": 32.0
+                            }
+                        }
+                    ],
+                    "spaceAfter": 14.0,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "filename": "{org_logo}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>YOUR ACCESS TO CERTAIN PART D DRUGS WILL NOT BE LIMITED</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18.0,
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "70%",
+                        "30%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 14.0,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "Date: {prep_date_localized}"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "Enrollee\u2019s Name: {patient_full_name}"
+                            },
+                            {
+                                "string": "Member Number: {patient_member_id}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    12.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__alt_secondary_notice_intro__exclude",
+                    "string": "{report_parameters__variables__alt_secondary_notice_intro__value}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "After further review, we have decided that your access to these medications will NOT be limited under the drug management program. There are no changes to the way these medications are covered for you under our plan rules.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__low_income_subsidy_status__exclude",
+                    "string": "{report_parameters__variables__low_income_subsidy_status__value}",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderAndParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you have questions about this notice or our drug management program to help enrollees use prescription opioid medications safely, contact us at:",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderAndParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{report_parameters__variables__dmp_free_text__value}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you have questions about your opioid pain medication or other prescription drugs you are taking, speak with your prescriber.",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderAndParagraphText"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "keepWithNext": true,
+                    "spaceAfter": 12.0,
+                    "spaceBefore": 12.0
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "<b>PRA Disclosure Statement</b> According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this collection is 0938-1465. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, and gather the data needed, and complete and review the information collection. If you have any comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to CMS, 7500 Security Boulevard, Attn: PRA Reports Clearance Officer, Baltimore, Maryland 21244-1850.",
+                    "text_style": {
+                        "fontSize": 10.0,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "CMS does not discriminate in its programs and activities: To request this form in an accessible format (e.g., Braille, Large Print, Audio CD) contact your Medicare Drug Plan. If you need assistance contacting your plan, call: 1-800-MEDICARE.",
+                    "text_style": {
+                        "fontSize": 10.0,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 35.0,
+                    "x": 36.0,
+                    "y": 760.0
+                }
+            },
+            {
+                "text": {
+                    "height": 100.0,
+                    "string": "10 Vantage Point Dr, Ste 1<br/>Rochester, NY 14624",
+                    "text_style": {
+                        "fontSize": 12.0,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 500.0,
+                    "x": 36.0,
+                    "y": 615.0
+                }
+            },
+            {
+                "text": {
+                    "height": 12.0,
+                    "string": "<b>Health and wellness or prevention information.</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 400.0,
+                    "x": 72.0,
+                    "y": 668.0
+                }
+            },
+            {
+                "text": {
+                    "height": 12.0,
+                    "string": "Form CMS-10874",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "left"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 142.0
+                }
+            },
+            {
+                "text": {
+                    "height": 12.0,
+                    "string": "OMB Approval No. 0938-1465 (Expires 11/30/2027)",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 142.0
+                }
+            },
+            {
+                "text": {
+                    "height": 12.0,
+                    "hide_condition": "report_parameters__variables__footer_variable_client_approval_code__exclude",
+                    "string": "{report_parameters__variables__footer_variable_client_approval_code__value}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 128.0
+                }
+            },
+            {
+                "text": {
+                    "height": 75.0,
+                    "hide_condition": "report_parameters__variables__footer_variable_disclaimer__exclude",
+                    "string": "{report_parameters__variables__footer_variable_disclaimer__value}",
+                    "text_style": {
+                        "parent_style": "FooterDisclaimerText",
+                        "text_alignment": "center"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 30.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 23.0
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 160.0,
+                "left": 48.0,
+                "right": 48.0,
+                "top": 66.0
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Times-New-Roman-normal",
+                "font_size": 9.0,
+                "show": true,
+                "skip_cover_page": true,
+                "y": 20.0
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 11.0,
+                    "leading": 14.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DisclaimerText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 8.0,
+                    "leading": 10.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DocIdText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 9.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FeatureText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 11.0,
+                    "leading": 14.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterDisclaimerText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 11.0,
+                    "leading": 14.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 11.0,
+                    "leading": 14.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "InformationTableText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 10.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12.0,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ListHeaderText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 4.0,
+                    "spaceBefore": 12.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphHeaderAndParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0,
+                    "spaceBefore": 12.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphHeaderText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 2.0,
+                    "spaceBefore": 12.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphLeadingText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 4.0,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphSmallText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 8.0,
+                    "leading": 10.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 10.0,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "PullOutText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 14.0,
+                    "leading": 16.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "TitleText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12.0,
+                    "leading": 15.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 2.0,
+                    "spaceBefore": 11.0,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-03-15T23:50:19"
+}

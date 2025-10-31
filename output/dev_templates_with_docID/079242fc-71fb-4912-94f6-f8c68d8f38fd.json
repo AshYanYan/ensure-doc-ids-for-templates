@@ -1,0 +1,1723 @@
+{
+    "created": "2025-09-30T13:02:01.090740",
+    "id": "079242fc-71fb-4912-94f6-f8c68d8f38fd",
+    "managed": true,
+    "name": "Centene Medicaid Member Personal Medication List 2025 (Standard Font)",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 12.0,
+                    "hide_for": [
+                        "centene:medicaid:carolina_complete_health:carolina_complete_health"
+                    ],
+                    "string": "Medication List for <i>{patient_full_name}</i>, DOB: <i>{patient_date_birth}</i>",
+                    "text_style": {
+                        "fontName": "Arial-normal",
+                        "fontSize": 12.0,
+                        "text_alignment": "right"
+                    },
+                    "width": 648.0,
+                    "x": 72.0,
+                    "y": 580.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 12.0,
+                    "hide_for": [
+                        "centene:medicaid:carolina_complete_health:carolina_complete_health"
+                    ],
+                    "string": "Lista de medicamentos de <i>{patient_full_name}</i>, fecha de nacimiento: <i>{patient_date_birth}</i>",
+                    "text_style": {
+                        "fontName": "Arial-normal",
+                        "fontSize": 12.0,
+                        "text_alignment": "right"
+                    },
+                    "width": 648.0,
+                    "x": 72.0,
+                    "y": 580.0
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "centene:medicaid:trillium_community_health_plan:oregon_trillium"
+                    ],
+                    "stroke_color": "#000000",
+                    "stroke_width": 1.0,
+                    "x_end": 720.0,
+                    "x_start": 72.0,
+                    "y_end": 60.0,
+                    "y_start": 60.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 9.0,
+                        "text_alignment": "right"
+                    },
+                    "width": 300.0,
+                    "x": 420.0,
+                    "y": 24.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:peach_state_health_plan:pshp"
+                    ],
+                    "string": "PSHP_020223_0055",
+                    "text_style": {
+                        "parentStyle": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 300.0,
+                    "x": 420.0,
+                    "y": 45.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:peach_state_health_plan:pshp"
+                    ],
+                    "string": "PSHP_020822_0073",
+                    "text_style": {
+                        "parentStyle": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 300.0,
+                    "x": 420.0,
+                    "y": 45.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:carolina_complete_health:carolina_complete_health",
+                        "centene:medicaid:delaware_first_health:delaware_medicaid_de",
+                        "centene:medicaid:iowa_total_care:iowa_total_care",
+                        "centene:medicaid:wellcare_of_kentucky:medicaid_wc_ky",
+                        "centene:medicaid:louisiana_healthcare_connections:lhc",
+                        "centene:medicaid:superior_healthplan:superior_tx",
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc",
+                        "centene:marketplace:ambetter_from_absolute_total_care:market_place_sc",
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health"
+                    ],
+                    "string": "Formulario de CMS-10396 (Vence: 02/24)",
+                    "text_style": {
+                        "parentStyle": "FooterText"
+                    },
+                    "width": 300.0,
+                    "x": 72.0,
+                    "y": 45.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:carolina_complete_health:carolina_complete_health",
+                        "centene:medicaid:delaware_first_health:delaware_medicaid_de",
+                        "centene:medicaid:iowa_total_care:iowa_total_care",
+                        "centene:medicaid:wellcare_of_kentucky:medicaid_wc_ky",
+                        "centene:medicaid:louisiana_healthcare_connections:lhc",
+                        "centene:medicaid:superior_healthplan:superior_tx",
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc",
+                        "centene:marketplace:ambetter_from_absolute_total_care:market_place_sc",
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health"
+                    ],
+                    "string": "Formulario aprobado No. de OMB 0938-1154",
+                    "text_style": {
+                        "parentStyle": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 300.0,
+                    "x": 420.0,
+                    "y": 45.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunflower_health_plan:sunflower_health_plan"
+                    ],
+                    "string": "<i>KDHE-Approved 1/24/2023</i>",
+                    "text_style": {
+                        "parentStyle": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 300.0,
+                    "x": 420.0,
+                    "y": 45.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc"
+                    ],
+                    "string": "HCA 31845/RX056",
+                    "text_style": {
+                        "parentStyle": "FooterText"
+                    },
+                    "width": 300.0,
+                    "x": 72.0,
+                    "y": 70.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:absolute_total_care:atc"
+                    ],
+                    "string": "ATC-01232023-M-2-SP",
+                    "text_style": {
+                        "parentStyle": "FooterText"
+                    },
+                    "width": 300.0,
+                    "x": 72.0,
+                    "y": 45.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health"
+                    ],
+                    "string": "CAD_144903E_State Approved 02212024",
+                    "text_style": {
+                        "parentStyle": "FooterText"
+                    },
+                    "width": 300.0,
+                    "x": 72.0,
+                    "y": 90.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health"
+                    ],
+                    "string": "OK4CADFRM44903E_0000",
+                    "text_style": {
+                        "parentStyle": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 300.0,
+                    "x": 420.0,
+                    "y": 90.0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<b>Medication List</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<b>Lista de medicamentos</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "Heading1Text"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        467.0
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        36.0
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 14.0,
+                                    "leading": 16.0,
+                                    "leftIndent": 0.0,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 9.0,
+                    "spaceBefore": 9.0,
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "Prepared on: <i>{cmr_date_mmddyyyy}</i>",
+                                "string_replacements": {
+                                    "centene:medicaid:fidelis_care:medicaid_wc_nj": {
+                                        "Spanish": "Preparada el: <i>{cmr_date_localized}</i>"
+                                    },
+                                    "centene:medicaid:sunflower_health_plan:sunflower_health_plan": {
+                                        "Spanish": "Preparada el <i>{cmr_date_localized}</i>"
+                                    },
+                                    "default": {
+                                        "Spanish": "Preparado el <i>{cmr_date_localized}</i>"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEABOVE": {
+                                "end": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        50.0,
+                        400.0
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        38.0,
+                        38.0
+                    ],
+                    "row_template": [
+                        {
+                            "image": {
+                                "alignment": "left",
+                                "height": 32.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 12.0,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 9.0,
+                    "spaceBefore": 9.0,
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "filename": "/images/lightbulb.png"
+                            },
+                            {
+                                "string": "Bring your Medication List when you go to the doctor, hospital, or ER (emergency room). Be sure to share it with your family or others who care for you.",
+                                "string_replacements": {
+                                    "centene:medicaid:fidelis_care:medicaid_wc_nj": {
+                                        "English": "Bring your Medication List when you go to the PCP, hospital, or ER (emergency room). Be sure to share it with your family or others who care for you.",
+                                        "Spanish": "Lleve su lista de medicamentos cuando vaya a las citas con su PCP, al hospital o a la sala de emergencias (ER). Aseg\u00farese de compartirla con su familia o con las personas que cuidan de usted."
+                                    },
+                                    "centene:medicaid:superior_healthplan:superior_tx": {
+                                        "English": "Bring your Medication List when you go to the doctor, hospital, or emergency room. Be sure to share it with your family or others who care for you."
+                                    },
+                                    "default": {
+                                        "Spanish": "Lleve su lista de medicamentos cuando vaya a las citas con el m\u00e9dico, al hospital o a la sala de emergencias (ER). Aseg\u00farese de compartirla con su familia o con las personas que cuidan de usted."
+                                    }
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "filename": "/images/pencil.png"
+                            },
+                            {
+                                "string": "Note any changes to how you take your meds. <br/> Cross out meds when you no longer use them.",
+                                "string_replacements": {
+                                    "centene:medicaid:absolute_total_care:atc": {
+                                        "English": "Note any changes to how you take your medications. <br/> Cross out medications when you no longer use them."
+                                    },
+                                    "centene:medicaid:superior_healthplan:superior_tx": {
+                                        "English": "Note any changes to how you take your medications. <br/> Cross out medications when you no longer use them."
+                                    },
+                                    "default": {
+                                        "Spanish": "Anote cualquier cambio en la manera en que toma sus medicamentos. Tache los medicamentos que ya no use."
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        178.0,
+                        200.0,
+                        134.0,
+                        136.0
+                    ],
+                    "data_keys": [
+                        "med_text",
+                        "dosing_regimen",
+                        "indication_text",
+                        "prescriber_name"
+                    ],
+                    "data_source": "patient_mtm_meds_objs",
+                    "row_heights": [
+                        6.0,
+                        null,
+                        null
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontName": "Times-New-Roman-bold",
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 9.0,
+                    "spaceBefore": 9.0,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Medication",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "Medicamento"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "How I take it",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "C\u00f3mo lo tomo"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Why I use it",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "Por qu\u00e9 lo uso"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Prescriber (Doctor)",
+                                "string_replacements": {
+                                    "centene:medicaid:fidelis_care:medicaid_wc_nj": {
+                                        "English": "Prescriber (PCP)",
+                                        "Spanish": "Profesional que expide la receta (PCP)"
+                                    },
+                                    "default": {
+                                        "Spanish": "Profesional que expide la receta (m\u00e9dico)"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    2.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    6.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    6.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    6.0
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    3.0
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "INNERGRID": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ],
+                    "top_border": true
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        50.0,
+                        365.0
+                    ],
+                    "data_source": "table_items",
+                    "hide_for": [
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj"
+                    ],
+                    "row_heights": [
+                        40.0
+                    ],
+                    "row_template": [
+                        {
+                            "image": {
+                                "height": 32.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 12.0,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 9.0,
+                    "spaceBefore": 9.0,
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "filename": "/images/pencil.png"
+                            },
+                            {
+                                "string": "Add new medications, over-the-counter drugs, herbals, vitamins, or minerals in the blank rows below.",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "Agregue los nuevos medicamentos recetados y de venta libre, los remedios herbarios, las vitaminas o los minerales en las filas a continuaci\u00f3n."
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        50.0,
+                        555.0
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        40.0
+                    ],
+                    "row_template": [
+                        {
+                            "image": {
+                                "height": 32.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 12.0,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj"
+                    ],
+                    "spaceAfter": 9.0,
+                    "spaceBefore": 9.0,
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "filename": "/images/pencil.png"
+                            },
+                            {
+                                "string": "Add new medications, over-the-counter drugs, herbals, vitamins, or minerals in the blank rows below.",
+                                "string_replacements": {
+                                    "centene:medicaid:fidelis_care:medicaid_wc_nj": {
+                                        "Spanish": "Agregue los nuevos medicamentos recetados y de venta libre, los remedios herbarios, las vitaminas o los minerales en las filas en blanco a continuaci\u00f3n."
+                                    },
+                                    "default": {
+                                        "Spanish": "Agregue los nuevos medicamentos recetados y de venta libre, los remedios herbarios, las vitaminas o los minerales en las filas a continuaci\u00f3n."
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        178.0,
+                        200.0,
+                        134.0,
+                        136.0
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        6.0,
+                        null,
+                        27.0,
+                        27.0,
+                        27.0
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontName": "Times-New-Roman-bold",
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 9.0,
+                    "spaceBefore": 9.0,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Medication",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "Medicamento"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "How I take it",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "C\u00f3mo lo tomo"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Why I use it",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "Por qu\u00e9 lo uso"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Prescriber (Doctor)",
+                                "string_replacements": {
+                                    "centene:medicaid:fidelis_care:medicaid_wc_nj": {
+                                        "English": "Prescriber (PCP)",
+                                        "Spanish": "Profesional que expide la receta (PCP)"
+                                    },
+                                    "default": {
+                                        "Spanish": "Profesional que expide la receta (m\u00e9dico)"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [
+                        [],
+                        [],
+                        []
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    2.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "INNERGRID": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ],
+                    "top_border": true
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        14.0,
+                        634.0
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        32.0,
+                        36.0
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 14.0,
+                                    "leading": 14.0,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 18.0,
+                    "spaceBefore": 18.0,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "image": {
+                                "filename": "/images/exclamationpoint.png",
+                                "height": 20.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "<b>Allergies:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "Alergias:"
+                                    }
+                                },
+                                "text_style": {
+                                    "leading": 20.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [
+                        [
+                            {
+                                "string": "{patient_allergies}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEABOVE": {
+                                "end": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    2.0,
+                                    "#787878"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        14.0,
+                        634.0
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        32.0,
+                        36.0
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 14.0,
+                                    "leading": 14.0,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 18.0,
+                    "spaceBefore": 18.0,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "image": {
+                                "filename": "/images/exclamationpoint.png",
+                                "height": 20.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "<b>Side effects I have had:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "Efectos secundarios que he tenido:"
+                                    }
+                                },
+                                "text_style": {
+                                    "leading": 20.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [
+                        [
+                            {
+                                "string": "{patient_allergies_side_effects}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEABOVE": {
+                                "end": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    2.0,
+                                    "#787878"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        14.0,
+                        634.0
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        32.0,
+                        56.0
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 14.0,
+                                    "leading": 14.0,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 18.0,
+                    "spaceBefore": 18.0,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "image": {
+                                "filename": "/images/exclamationpoint.png",
+                                "height": 20.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "<b>Other information:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "Otra informaci\u00f3n:"
+                                    }
+                                },
+                                "text_style": {
+                                    "leading": 20.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [
+                        []
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEABOVE": {
+                                "end": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    2.0,
+                                    "#787878"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        48.0,
+                        600.0
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        4.0,
+                        44.0
+                    ],
+                    "row_template": [
+                        {
+                            "image": {
+                                "height": 32.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 108.0,
+                    "spaceBefore": 18.0,
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "filename": "/images/pencil.png"
+                            },
+                            {
+                                "string": "<b>My notes and questions:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "Mis notas y preguntas:"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    6.0
+                                ]
+                            }
+                        }
+                    ],
+                    "top_border": true
+                }
+            },
+            {
+                "spacer": {
+                    "height": 28.0
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:commercial:health_net:health_net_commercial_or"
+                    ],
+                    "spaceBefore": 180.0,
+                    "string": "",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Health Net Health Plan of Oregon, Inc. es una subsidiaria de Health Net, LLC. Health Net es una marca de servicio registrada de Health Net, LLC. Todos los derechos reservados."
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Calibri-normal",
+                        "fontSize": 7.0
+                    },
+                    "width": "100%"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 50.0,
+                    "show_for": [
+                        "centene:medicaid:trillium_community_health_plan:oregon_trillium"
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:trillium_community_health_plan:oregon_trillium"
+                    ],
+                    "string": "Enclosures:",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Recintos:"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 100.0
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Encl. 1 \u2013 Nondiscrimination Notice",
+                        "Encl. 2 \u2013 Notice of Language Assistance"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Spanish": [
+                                "1. Aviso de no discriminacion",
+                                "2. Aviso de Asistencia Linguistica"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletColor": "white",
+                        "bulletFontSize": 12.0,
+                        "bulletFormat": "%s.",
+                        "bulletType": "bullet",
+                        "leftIndent": 24.0
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36.0
+                    },
+                    "show_for": [
+                        "centene:medicaid:trillium_community_health_plan:oregon_trillium"
+                    ],
+                    "text_style": {
+                        "fontName": "Arial-normal",
+                        "fontSize": 12.0
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72.0,
+                "left": 66.0,
+                "right": 66.0,
+                "top": 42.0
+            },
+            "orientation": "landscape",
+            "pagination": {
+                "font_name": "Arial-normal",
+                "font_size": 12.0,
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {
+                "letter_date": {
+                    "English": {
+                        "format_string": "%B %-d, %Y",
+                        "locale": "en_US.UTF-8"
+                    },
+                    "Spanish": {
+                        "format_string": "%-d de %B de %Y",
+                        "locale": "es_ES.UTF-8"
+                    }
+                }
+            }
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "Heading1Text": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 18.0,
+                    "parent_style": "Heading1"
+                },
+                "ParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12.0,
+                    "leading": 16.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12.0
+                },
+                "TableHeaderText": {
+                    "fontName": "Arial-bold",
+                    "fontSize": 13.0,
+                    "leading": 15.0,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-09-30T13:02:01.090740"
+}

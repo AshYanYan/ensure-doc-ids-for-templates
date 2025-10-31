@@ -1,0 +1,1463 @@
+{
+    "created": "2024-07-18T14:30:42Z",
+    "id": "eab7a2e6-ecfd-46dc-82f4-7a2980a15085",
+    "managed": false,
+    "name": "SCAN_SPC_TMR",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "hide_condition": "patient_member_id",
+                    "string": "Patient Name: {patient_full_name}<br/>DOB: {patient_date_birth}<br/>Member ID: <br/>",
+                    "text_style": {
+                        "fontSize": 10.0,
+                        "leading": 14.0,
+                        "parent_style": "HeaderText",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 750.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "patient_member_id",
+                    "height": 10.0,
+                    "string": "Patient Name: {patient_full_name}<br/>DOB: {patient_date_birth}<br/>Member ID: {patient_member_id}<br/>",
+                    "text_style": {
+                        "fontSize": 10.0,
+                        "leading": 14.0,
+                        "parent_style": "HeaderText",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 750.0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{prep_full_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "spaceBefore": 20.0,
+                    "string": "Dear {provider_full_name},",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Statin Therapy for Patients with Cardiovascular Disease (SPC)</b> is a Medicare Star Measure. We have reviewed our records and noticed that this patient is currently not taking a <b>moderate to high intensity statin</b>. The ACC/AHA Guideline on the Management of Blood Cholesterol recommends patients \u2264 75 years of age with atherosclerotic cardiovascular disease (ASCVD) to take a <b>high intensity statin</b> to reduce cardiovascular risk, regardless of LDL level. This patient has a diagnosis indicating atherosclerotic cardiovascular disease (ASCVD).",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        300.0,
+                        100.0,
+                        100.0
+                    ],
+                    "data_source": "table_items",
+                    "display_condition": "patient_member_id",
+                    "row_heights": [
+                        32.0
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<b>Patient Name: {patient_full_name}</b>"
+                            },
+                            {
+                                "string": "<b>DOB: {patient_date_birth}</b>"
+                            },
+                            {
+                                "string": "<b>Member ID: {patient_member_id}</b>"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    6.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "INNERGRID": {
+                                "end": [
+                                    -1.0,
+                                    3.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        300.0,
+                        100.0,
+                        100.0
+                    ],
+                    "data_source": "table_items",
+                    "hide_condition": "patient_member_id",
+                    "row_heights": [
+                        32.0
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<b>Patient Name: {patient_full_name}</b>"
+                            },
+                            {
+                                "string": "<b>DOB: {patient_date_birth}</b>"
+                            },
+                            {
+                                "string": "<b>Member ID: </b>"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    6.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "INNERGRID": {
+                                "end": [
+                                    -1.0,
+                                    3.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Action Requested:</b> <br />Please review the information provided. <b>Indicate the appropriate action items and fax us the form at {hotline_fax}</b>.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Action Items (Select all that apply):</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "<b>Patient is a candidate for statin therapy; I will send a new MODERATE or HIGH intensity statin prescription to the patient\u2019s preferred pharmacy:</b>",
+                        [
+                            "<b>{pharmacy_name}<br />{pharmacy_street}<br />{pharmacy_city_state_zip}<br />{pharmacy_phone}<br /></b>"
+                        ],
+                        "I will discuss statin therapy during the patient\u2019s next appointment on ______________ (date)",
+                        "Patient has refused statin therapy in the past due to ___________________________________",
+                        "Patient has a history of myalgia while on statin therapy. Please send us progress note.",
+                        "Patient is already on a statin. Please indicate what statin the patient is currently on below:<br /><br />_________________________________________________",
+                        "Patient is receiving palliative care",
+                        "Patient is pregnant, lactating, undergoing In vitro fertilization (IVF), or is using Clomiphene",
+                        "Patient is not appropriate for statin therapy at this time due to meeting one or more of the following criteria. <b>Please select all that apply and submit a non-chargeable claim code using the appropriate ICD-10 codes. Please send us progress notes, including appropriate ICD-10 codes and descriptions. Codes must be updated each measure year</b> to ensure your patient is appropriately excluded."
+                    ],
+                    "list_attributes": {
+                        "bulletFontName": "Times-New-Roman-normal",
+                        "bulletType": "bullet",
+                        "start": "\u25a1"
+                    },
+                    "list_item_attributes": {
+                        "bulletFontSize": 20.0,
+                        "bulletOffsetY": 8.0,
+                        "leftIndent": 50.0,
+                        "spaceAfter": 7.0,
+                        "spaceBefore": 1.0
+                    },
+                    "sub_list_attributes": {
+                        "bulletColor": "White",
+                        "bulletType": "bullet",
+                        "leftIndent": 70.0,
+                        "spaceAfter": 7.0
+                    },
+                    "sub_list_item_attributes": {
+                        "value": ""
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 10.0
+                    }
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        300.0,
+                        130.0
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0
+                                }
+                            }
+                        }
+                    ],
+                    "spaceBefore": 70.0,
+                    "table_alignment": "center",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Definition",
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Codes",
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [
+                        [
+                            {
+                                "string": "\u25a1  Myalgia"
+                            },
+                            {
+                                "string": "<b>M79.1</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  Drug-induced myopathy"
+                            },
+                            {
+                                "string": "<b>G72.0</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  Myopathy, unspecified"
+                            },
+                            {
+                                "string": "<b>G72.9</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  Myositis, unspecified"
+                            },
+                            {
+                                "string": "<b>M60.9</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  Rhabdomyolysis"
+                            },
+                            {
+                                "string": "<b>M62.82</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  End stage renal disease"
+                            },
+                            {
+                                "string": "<b>N18.6</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  Dependence on renal dialysis"
+                            },
+                            {
+                                "string": "<b>Z99.2</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  Unspecified cirrhosis of liver"
+                            },
+                            {
+                                "string": "<b>K74.60</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  Alcoholic cirrhosis of liver without ascites"
+                            },
+                            {
+                                "string": "<b>K70.30</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  History of myalgia caused by statin (situation)"
+                            },
+                            {
+                                "string": "<b>16524291000119105</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  History of rhabdomyolysis due to statin (situation)"
+                            },
+                            {
+                                "string": "<b>16524331000119104</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  Myalgia caused by statin (finding)"
+                            },
+                            {
+                                "string": "<b>16462851000119106</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  Rhabdomyolysis due to statin (disorder)"
+                            },
+                            {
+                                "string": "<b>787206005</b>"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    6.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "INNERGRID": {
+                                "end": [
+                                    -1.0,
+                                    13.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>SCAN Formulary Statin Intensity Categories</b>",
+                    "text_style": {
+                        "parent_style": "BiggerText",
+                        "spaceBefore": 20.0,
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        110.0,
+                        150.0,
+                        125.0
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0,
+                        16.0
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0
+                                }
+                            }
+                        }
+                    ],
+                    "spaceBefore": 20.0,
+                    "table_alignment": "center",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Statin",
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Moderate-Intensity Dose",
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "High-Intensity Dose",
+                                "text_style": {
+                                    "fontSize": 12.0,
+                                    "leading": 14.0,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [
+                        [
+                            {
+                                "string": "Atorvastatin (L)"
+                            },
+                            {
+                                "string": "10 to 20 mg"
+                            },
+                            {
+                                "string": "40 to 80 mg"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "Simvastatin (L)"
+                            },
+                            {
+                                "string": "20 to 40 mg"
+                            },
+                            {
+                                "string": "N/A"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "Lovastatin (L)"
+                            },
+                            {
+                                "string": "40 mg"
+                            },
+                            {
+                                "string": "N/A"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "Pravastatin (H)"
+                            },
+                            {
+                                "string": "40 to 80 mg"
+                            },
+                            {
+                                "string": "N/A"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "Rosuvastatin (H)"
+                            },
+                            {
+                                "string": "5 to 10 mg"
+                            },
+                            {
+                                "string": "20 to 40 mg"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    6.0
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "INNERGRID": {
+                                "end": [
+                                    -1.0,
+                                    10.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "H- Hydrophilic L -Lipophilic; if myalgia occurs on a lipophilic statin despite dose reductions, it may be prudent to attempt a trial of a hydrophilic statin.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We appreciate working with you to provide high-quality healthcare for our patients.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Bahar Davidoff,</b><br/> Vice President of Pharmacy<br/>{hotline_name}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "height": 18.0,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "text_style": {
+                        "parent_style": "FooterTextSmall",
+                        "spaceBefore": 160.0,
+                        "text_alignment": "left"
+                    },
+                    "width": 500.0,
+                    "x": 36.0,
+                    "y": 40.0
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "loop": {
+                    "data": {
+                        "iterate_over": "drps"
+                    },
+                    "elements": [
+                        {
+                            "paragraph": {
+                                "string": "{drp_title}",
+                                "text_style": {
+                                    "parent_style": "Heading1Text",
+                                    "textColor": "#00a89e",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "columns": {
+                                "column_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "content": [
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_assessment_list_items",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "ParagraphText",
+                                                        "spaceAfter": 0.0
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "list": {
+                                                    "items": "drp_assessment_notes",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "list_item_attributes": {
+                                                        "value": " "
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceBefore": 60.0
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "{drp_assessment_title}:",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234.0
+                                    },
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_recommendation_list_items",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "ParagraphText",
+                                                        "spaceAfter": 0.0
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "list": {
+                                                    "items": "drp_recommendation_notes",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "list_item_attributes": {
+                                                        "value": " "
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceBefore": 60.0
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "{drp_recommendation_title}:",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234.0
+                                    }
+                                ],
+                                "spaceBefore": 24.0
+                            }
+                        },
+                        {
+                            "columns": {
+                                "column_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "LINEBELOW": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                1.0,
+                                                "#000000"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "content": [
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_exclusion_criteria_full_width",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceAfter": 0.0
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "Exclusion Criteria <super>{drp_exclusion_references}</super>",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 468.0
+                                    }
+                                ],
+                                "display_condition": "drp_exclusion_criteria_full_width",
+                                "spaceBefore": 12.0
+                            }
+                        },
+                        {
+                            "columns": {
+                                "column_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "LINEBELOW": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                1.0,
+                                                "#000000"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "content": [
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_exclusion_criteria_left_column",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceAfter": 0.0
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "Exclusion Criteria <super>{drp_exclusion_references}</super>",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234.0
+                                    },
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_exclusion_criteria_right_column",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceAfter": 0.0
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "",
+                                                "text_style": {
+                                                    "leftIndent": 36.0,
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234.0
+                                    }
+                                ],
+                                "display_condition": "drp_exclusion_criteria_left_column",
+                                "spaceBefore": 12.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "{drp_references_title}:",
+                                "text_style": {
+                                    "parent_style": "FooterText"
+                                }
+                            }
+                        },
+                        {
+                            "list": {
+                                "items": "drp_references_list_items",
+                                "list_attributes": {
+                                    "bulletFontSize": 8.0,
+                                    "bulletFormat": "%s.",
+                                    "bulletType": "1"
+                                },
+                                "text_style": {
+                                    "parent_style": "FooterTextSmall"
+                                }
+                            }
+                        },
+                        {
+                            "spacer": {
+                                "height": 5.0
+                            }
+                        },
+                        {
+                            "chart": {
+                                "chart_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                "MIDDLE"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "GRID": {
+                                            "end": [
+                                                -1.0,
+                                                -1.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                1.0,
+                                                "#000000"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "BACKGROUND": {
+                                            "end": [
+                                                -1.0,
+                                                0.0
+                                            ],
+                                            "start": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "value": [
+                                                "#EDEDED"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "chart_type_source": "drp_patient_table_type",
+                                "column_widths_source": "drp_patient_table_column_widths",
+                                "content_source": "drp_patient_table_content",
+                                "content_template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "TableBodyText"
+                                        }
+                                    }
+                                },
+                                "header_template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "TableHeaderText",
+                                            "text_alignment": "center"
+                                        }
+                                    }
+                                },
+                                "headers_source": "drp_patient_table_headers",
+                                "spaceBefore": 12.0
+                            }
+                        }
+                    ],
+                    "separators": [
+                        {
+                            "pagebreak": {}
+                        }
+                    ]
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "/images/scan_logo.png",
+                    "height": 50.0,
+                    "width": 175.0,
+                    "x": 580.0,
+                    "y": 775.0
+                }
+            },
+            {
+                "text": {
+                    "height": 18.0,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "text_style": {
+                        "parent_style": "FooterTextSmall",
+                        "text_alignment": "left"
+                    },
+                    "width": 500.0,
+                    "x": 36.0,
+                    "y": 40.0
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 30.0,
+                "left": 36.0,
+                "right": 36.0,
+                "top": 80.0
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "BiggerText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 14.0,
+                    "leading": 13.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0
+                },
+                "CalloutText": {
+                    "borderColor": "#000000",
+                    "borderPadding": 5.0,
+                    "borderWidth": 1.0,
+                    "fontName": "Lato-bold",
+                    "fontSize": 13.0,
+                    "leading": 13.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 18.0
+                },
+                "ColumnsHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 11.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0
+                },
+                "FooterText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 9.0,
+                    "leading": 9.0,
+                    "parent_style": "BodyText"
+                },
+                "FooterTextLarge": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 10.0,
+                    "leading": 10.0,
+                    "parent_style": "BodyText"
+                },
+                "FooterTextSmall": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8.0,
+                    "leading": 8.0,
+                    "parent_style": "BodyText"
+                },
+                "HeaderText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8.0,
+                    "leading": 8.0,
+                    "parent_style": "BodyText"
+                },
+                "Heading1Text": {
+                    "fontName": "Lato-normal",
+                    "parent_style": "Heading1"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12.0,
+                    "leading": 13.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0
+                },
+                "TableBodyText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 9.0,
+                    "leading": 9.0,
+                    "parent_style": "BodyText"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 9.0,
+                    "leading": 9.0,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-09-15T23:47:26"
+}

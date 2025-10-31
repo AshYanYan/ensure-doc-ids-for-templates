@@ -1,0 +1,2779 @@
+{
+    "created": "2025-09-29T17:04:36.453515",
+    "id": "36870887-34e7-415b-a40e-97166b44fb26",
+    "managed": true,
+    "name": "Centene Member TMR Medicaid (Standard Font)",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj"
+                    ],
+                    "string": "TO_BE_REPLACED",
+                    "string_replacements": {
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj": {
+                            "English": "CAD_95280E_State Approved 05202024",
+                            "Spanish": "CAD_95280S_State Approved 05202024"
+                        },
+                        "default": {
+                            "Spanish": "TO_BE_REPLACED"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 540.0,
+                    "x": 48.0,
+                    "y": 72.6
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:youthcare_healthchoice_illinois:centene_il_yc"
+                    ],
+                    "string": "TO_BE_REPLACED",
+                    "string_replacements": {
+                        "centene:medicaid:youthcare_healthchoice_illinois:centene_il_yc": {
+                            "English": "YC_MR TMR System Generated Letter Template_09092022",
+                            "Spanish": "YC_MR TMR System Generated Letter Template_spa-US_09092022"
+                        },
+                        "default": {
+                            "Spanish": "TO_BE_REPLACED"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 540.0,
+                    "x": 48.0,
+                    "y": 81.4
+                }
+            },
+            {
+                "image": {
+                    "anchor": "c",
+                    "show_for": [
+                        "centene:medicaid:managed_health_services_mhs:mhs_in"
+                    ],
+                    "storage": {
+                        "path": "assets/centene/2025-08-01/FS-3613/indiana_footer.png",
+                        "type": "S3"
+                    },
+                    "width": 540.0,
+                    "x": 306.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "image": {
+                    "anchor": "c",
+                    "show_for": [
+                        "centene:medicaid:louisiana_healthcare_connections:lhc"
+                    ],
+                    "storage": {
+                        "path": "assets/centene/2025-08-22/FS-3633/la_caid_footer.png",
+                        "type": "S3"
+                    },
+                    "width": 540.0,
+                    "x": 306.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "hide_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar",
+                        "centene:medicaid:sunshine_health:sshp:fl",
+                        "centene:medicaid:ohana_health_plan:medicaid_wc_hi",
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp",
+                        "centene:medicaid:sunshine_health:sshp:fl_cw",
+                        "centene:medicaid:meridian:il_medicaid",
+                        "centene:medicaid:youthcare_healthchoice_illinois:centene_il_yc",
+                        "centene:medicaid:sunflower_health_plan:sunflower_health_plan",
+                        "centene:medicaid:wellcare_of_kentucky:medicaid_wc_ky",
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj",
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health",
+                        "centene:medicaid:trillium_community_health_plan:oregon_trillium",
+                        "centene:medicaid:superior_healthplan:superior_tx",
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc",
+                        "centene:medicaid:wellcare_of_north_carolina:medicaid_wc_nc"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "hide_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar",
+                        "centene:medicaid:sunshine_health:sshp:fl",
+                        "centene:medicaid:ohana_health_plan:medicaid_wc_hi",
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp",
+                        "centene:medicaid:sunshine_health:sshp:fl_cw",
+                        "centene:medicaid:meridian:il_medicaid",
+                        "centene:medicaid:youthcare_healthchoice_illinois:centene_il_yc",
+                        "centene:medicaid:sunflower_health_plan:sunflower_health_plan",
+                        "centene:medicaid:wellcare_of_kentucky:medicaid_wc_ky",
+                        "centene:medicaid:nebraska_total_care:nebraska_care",
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj",
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health",
+                        "centene:medicaid:superior_healthplan:superior_tx",
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc",
+                        "centene:medicaid:wellcare_of_north_carolina:medicaid_wc_nc",
+                        "centene:medicaid:nebraska_total_care:nebraska_care"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:wellcare_of_north_carolina:medicaid_wc_nc"
+                    ],
+                    "string": "CAD_95295E_State Approved 04132022",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:wellcare_of_north_carolina:medicaid_wc_nc"
+                    ],
+                    "string": "\u00a9WellCare 2022",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:wellcare_of_north_carolina:medicaid_wc_nc"
+                    ],
+                    "string": "NC2NCDLTR95295E_0000",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:wellcare_of_north_carolina:medicaid_wc_nc"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:absolute_total_care:atc"
+                    ],
+                    "string": "ATC-01252023-M-5",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:absolute_total_care:atc"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:absolute_total_care:atc"
+                    ],
+                    "string": "ATC-01252023-M-5-S",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:absolute_total_care:atc"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc"
+                    ],
+                    "string": "HCA 30662/RX053",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:superior_healthplan:superior_tx"
+                    ],
+                    "string": "<font face='Calibri-normal' size='8'>SHP_20229010E</font>",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:superior_healthplan:superior_tx"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:trillium_community_health_plan:oregon_trillium"
+                    ],
+                    "string": "OHP-TRIL-22-3108 approved 6/6/2022",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:trillium_community_health_plan:oregon_trillium"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health"
+                    ],
+                    "string": "CAD_144862E_State Approved 02212024\tOK4CADLTR44862E_0000",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health"
+                    ],
+                    "string": "Caid_TMR-System Letter-OK-Eng_01242024",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj"
+                    ],
+                    "string": "\u00a9 2023 Fidelis Care. All rights reserved.",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj"
+                    ],
+                    "string": "NJ2CADLTR48373S_0000",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj"
+                    ],
+                    "string": "092-23-52",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:wellcare_of_kentucky:medicaid_wc_ky"
+                    ],
+                    "string": "CAD_115567E_ State Approved 01312023",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:wellcare_of_kentucky:medicaid_wc_ky"
+                    ],
+                    "string": "KY2KMDLTR15567E_0000",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:wellcare_of_kentucky:medicaid_wc_ky"
+                    ],
+                    "string": "\u00a9WellCare 2022",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:wellcare_of_kentucky:medicaid_wc_ky"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunflower_health_plan:sunflower_health_plan"
+                    ],
+                    "string": "www.SunflowerHealthPlan.com | 877-644-4623<i><\u200bKDHE-Approved 4/14/2022></i>",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:sunflower_health_plan:sunflower_health_plan"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:youthcare_healthchoice_illinois:centene_il_yc"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'><b>1-844-289-2264 (TTY: 711)</b></font>",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:youthcare_healthchoice_illinois:centene_il_yc"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'><b>ILYouthCare.com</b></font>",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:youthcare_healthchoice_illinois:centene_il_yc"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:meridian:il_medicaid"
+                    ],
+                    "string": "IL Meridian_MR TMR System Generated Letter Template",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:meridian:il_medicaid"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:meridian:il_medicaid"
+                    ],
+                    "string": "IL Meridian_MR TMR System Generated Letter Template_spa-US",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:meridian:il_medicaid"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:ohana_health_plan:medicaid_wc_hi"
+                    ],
+                    "string": "CAD_95293E_State Approved 04132022",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:ohana_health_plan:medicaid_wc_hi"
+                    ],
+                    "string": "\u00a9WellCare 2022",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:ohana_health_plan:medicaid_wc_hi"
+                    ],
+                    "string": "HI2ZMDLTR95293E_0000",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:ohana_health_plan:medicaid_wc_hi"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "ArkansasTotalCare.com1-866-282-6280 (TTY: 711)",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "\u00a9 2022 Arkansas Total Care, Inc. All rights reserved.ARTC22-H-204",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>1-866-796-0530</font>",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11' color='#F35B00'><b>SunshineHealth.com</b></font>",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>(TTY 1-800-955-8770)</font>",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>MMA_8391</font>",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>1-866-799-5321</font>",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11' color='#F35B00'><b>SunshineHealth.com</b></font>",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>(TTY 1-800-955-8770)</font>",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>CMS_5552</font>",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>1-866-799-5321</font>",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11' color='#F35B00'><b>SunshineHealth.com</b></font>",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>(Tel\u00e9fono de texto 1-800-955-8770)</font>",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>CMS_5552</font>",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>1-855-463-4100</font>",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11' color='#F35B00'><b>SunshineHealth.com</b></font>",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>(TTY 1-800-955-8770)</font>",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>CW_8528</font>",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>1-855-463-4100</font>",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11' color='#F35B00'><b>SunshineHealth.com</b></font>",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>(Tel\u00e9fono de texto 1-800-955-8770)</font>",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "<font face='Calibri-normal' size='11'>CW_8528</font>",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 516.0,
+                    "x": 48.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "table": {
+                    "column_widths": [
+                        206.4,
+                        309.59999999999997
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "image": {
+                                "alignment": "left",
+                                "height": 54.0,
+                                "max_width": 206.4
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "BannerText",
+                                    "text_alignment": "right"
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "centene:medicaid:nebraska_total_care:nebraska_care",
+                        "centene:medicaid:sunshine_health:sshp:fl_cw",
+                        "centene:medicaid:youthcare_healthchoice_illinois:centene_il_yc",
+                        "centene:medicaid:sunflower_health_plan:sunflower_health_plan",
+                        "centene:medicaid:trillium_community_health_plan:oregon_trillium",
+                        "centene:medicaid:sunflower_health_plan:sunflower_health_plan",
+                        "centene:medicaid:nh_healthy_families:gshp",
+                        "centene:medicaid:carolina_complete_health:carolina_complete_health"
+                    ],
+                    "spaceAfter": 3.0,
+                    "table_items": [
+                        [
+                            {
+                                "filename": "{org_logo}"
+                            },
+                            {
+                                "string": "[patient_org.report.reportPlanName]"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "RIGHT"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        206.4,
+                        309.59999999999997
+                    ],
+                    "data_source": "table_items",
+                    "hide_for": [
+                        "centene:medicaid:nebraska_total_care:nebraska_care",
+                        "centene:medicaid:sunshine_health:sshp:fl_cw",
+                        "centene:medicaid:youthcare_healthchoice_illinois:centene_il_yc",
+                        "centene:medicaid:sunflower_health_plan:sunflower_health_plan",
+                        "centene:medicaid:trillium_community_health_plan:oregon_trillium",
+                        "centene:medicaid:iowa_total_care:iowa_total_care",
+                        "centene:medicaid:managed_health_services_mhs:mhs_in",
+                        "centene:medicaid:nh_healthy_families:gshp",
+                        "centene:medicaid:carolina_complete_health:carolina_complete_health"
+                    ],
+                    "row_template": [
+                        {
+                            "image": {
+                                "alignment": "left",
+                                "height": 54.0,
+                                "max_width": 206.4
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "BannerText",
+                                    "text_alignment": "right"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 3.0,
+                    "table_items": [
+                        [
+                            {
+                                "filename": "{org_logo}"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "RIGHT"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        206.4,
+                        309.59999999999997
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "image": {
+                                "alignment": "left",
+                                "height": 54.0,
+                                "max_width": 206.4
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "BannerText",
+                                    "text_alignment": "right"
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "centene:medicaid:iowa_total_care:iowa_total_care"
+                    ],
+                    "spaceAfter": 3.0,
+                    "table_items": [
+                        [
+                            {
+                                "filename": "{org_logo}"
+                            },
+                            {
+                                "string": "{org_address}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "RIGHT"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        309.59999999999997,
+                        206.4
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "BannerText",
+                                    "text_alignment": "left"
+                                }
+                            }
+                        },
+                        {
+                            "image": {
+                                "alignment": "right",
+                                "height": 54.0,
+                                "max_width": 206.4
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "centene:medicaid:managed_health_services_mhs:mhs_in"
+                    ],
+                    "spaceAfter": 3.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "[patient_org.report.reportPlanName]"
+                            },
+                            {
+                                "filename": "{org_logo}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "RIGHT"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        258.0,
+                        258.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "BannerText",
+                                    "text_alignment": "left"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "BannerText",
+                                    "text_alignment": "right"
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar",
+                        "centene:medicaid:sunshine_health:sshp:fl",
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp",
+                        "centene:medicaid:sunshine_health:sshp:fl_cw",
+                        "centene:medicaid:ohana_health_plan:medicaid_wc_hi",
+                        "centene:medicaid:youthcare_healthchoice_illinois:centene_il_yc",
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj",
+                        "centene:medicaid:absolute_total_care:atc",
+                        "centene:medicaid:superior_healthplan:superior_tx",
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc",
+                        "centene:medicaid:louisiana_healthcare_connections:lhc"
+                    ],
+                    "spaceAfter": 12.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "{org_address}"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "RIGHT"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        252.0,
+                        252.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "leading": 12.0,
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "left"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "leading": 12.0,
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "right"
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "centene:medicaid:meridian:il_medicaid"
+                    ],
+                    "spaceAfter": 20.0,
+                    "spaceBefore": 0.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "<font face='Calibri-normal' size='11'>{org_address}</font>"
+                            },
+                            {
+                                "string": "<font face='Calibri-normal' size='11'>866-606-3700 (TTY: 711)<br/>ILmeridian.com</font>"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "RIGHT"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBELOW": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.1,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "height": 72.0,
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 216.0,
+                    "x": 54.0,
+                    "y": 576.0
+                }
+            },
+            {
+                "paragraph": {
+                    "height": 72.0,
+                    "show_for": [
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc"
+                    ],
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 0.0,
+                        "spaceBefore": 0.0,
+                        "text_alignment": "right"
+                    },
+                    "width": 216.0,
+                    "x": 54.0,
+                    "y": 576.0
+                }
+            },
+            {
+                "paragraph": {
+                    "height": 72.0,
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    },
+                    "width": 216.0,
+                    "x": 54.0,
+                    "y": 576.0
+                }
+            },
+            {
+                "spacer": {
+                    "height": 10.0,
+                    "width": 0.0
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "{cmr_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "<b>Re:</b>  {cmr_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "string": "Dear {patient_full_name},",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Estimado/a {patient_full_name},"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 12.0,
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "string": "Dear Parent or Guardian of {patient_full_name},",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Estimado Padre/Tutor de {patient_full_name},"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 12.0,
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "[patient_org.report.reportPlanDisplayName], wants to help you get the most from your medicines.",
+                    "string_replacements": {
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp": {
+                            "English": "Children\u2019s Medical Services (CMS) Health Plan wants to help your child get the most from their medicines.",
+                            "Spanish": "El Plan de Salud Children\u2019s Medical Services (CMS) quiere ayudar a su hijo(a) a aprovechar al m\u00e1ximo sus medicamentos."
+                        },
+                        "centene:medicaid:sunshine_health:sshp:fl_cw": {
+                            "English": "[patient_org.report.reportPlanDisplayName], wants to help your child get the most from their medicines.",
+                            "Spanish": "[patient_org.report.reportPlanDisplayName],quiere ayudar a su hijo(a) a aprovechar al m\u00e1ximo sus medicamentos."
+                        },
+                        "centene:medicaid:wellcare_of_north_carolina:medicaid_wc_nc": {
+                            "English": "[patient_org.report.reportPlanDisplayName] wants to help you get the most from your medicines."
+                        },
+                        "default": {
+                            "Spanish": "[patient_org.report.reportPlanDisplayName], quiere que usted aproveche al m\u00e1ximo la medicaci\u00f3n."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar",
+                        "centene:medicaid:louisiana_healthcare_connections:lhc",
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj",
+                        "centene:medicaid:silversummit_healthplan:silver_summit",
+                        "centene:medicaid:absolute_total_care:atc",
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc",
+                        "centene:medicaid:carolina_complete_health:carolina_complete_health",
+                        "centene:medicaid:nh_healthy_families:gshp",
+                        "centene:medicaid:sunshine_health:sshp:fl_cw",
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp",
+                        "centene:medicaid:wellcare_of_north_carolina:medicaid_wc_nc"
+                    ],
+                    "string": "If you have any other questions about your medicines, please contact your prescriber. If you have any questions about your [patient_org.report.reportPlanDisplayName] benefits, please call Member Services. The toll-free number is listed on the back of your Member ID card.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene otras preguntas sobre sus medicamentos, comun\u00edquese con el profesional que expide las recetas. Si tiene dudas sobre sus beneficios de [patient_org.report.reportPlanDisplayName], llame a Servicios al Miembro. El n\u00famero gratuito figura al dorso de su tarjeta de identificaci\u00f3n de miembro."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:wellcare_of_north_carolina:medicaid_wc_nc"
+                    ],
+                    "string": "If you have any other questions about your medicines, please contact your prescriber. If you have any questions about your WellCare benefits, please call Member Services toll-free at <b>1-866-799-5318</b> (TTY <b>711</b>), Monday \u2013 Saturday, from 8am-8pm.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene otras preguntas sobre sus medicamentos, comun\u00edquese con el profesional que expide las recetas. Si tiene dudas sobre sus beneficios de [patient_org.report.reportPlanDisplayName], llame a Servicios al Miembro. El n\u00famero gratuito figura al dorso de su tarjeta de identificaci\u00f3n de miembro."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "If you have any other questions about your child\u2019s medicines, please contact their prescriber. If you have any questions about your child\u2019s [patient_org.report.reportPlanDisplayName] benefits, please call Member Services. The toll-free number is listed on the back of your Member ID card.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene alguna otra pregunta sobre los medicamentos de su hijo(a), comun\u00edquese con su m\u00e9dico. Si tiene alguna pregunta sobre los beneficios de [patient_org.report.reportPlanDisplayName] de su hijo(a), llame a los Servicios al Miembro. El n\u00famero gratuito aparece en el reverso de su tarjeta de identificaci\u00f3n de miembro."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "string": "If you have any questions about your child\u2019s medicines, please contact their doctor/prescriber. If you have any questions about your child\u2019s CMS Health Plan benefits, please call Member Services. The toll-free number is listed on the back of your Member ID card.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene alguna pregunta sobre los medicamentos de su hijo(a), comun\u00edquese con su m\u00e9dico/prescriptor. Si tiene alguna pregunta sobre los beneficios del Plan de Salud CMS de su hijo(a), llame a los Servicios al Miembro. El n\u00famero gratuito aparece en el reverso de su tarjeta de identificaci\u00f3n de miembro."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "If you have any other questions about your medicines, please contact your prescriber. If you have any questions about your Arkansas Total Care benefits, please call Member Services from Monday through Friday from 8 a.m. to 5 p.m. CT. The toll-free number is listed on the back of your Member ID card.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene otras preguntas sobre sus medicamentos, comun\u00edquese con el profesional que expide las recetas. Si tiene dudas sobre sus beneficios de [patient_org.report.reportPlanDisplayName], llame a Servicios al Miembro. El n\u00famero gratuito figura al dorso de su tarjeta de identificaci\u00f3n de miembro."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:louisiana_healthcare_connections:lhc"
+                    ],
+                    "string": "If you have any other questions about your medicines, please contact your prescriber. If you have any questions about your Louisiana Healthcare Connections benefits, please call us at 1-866-595-8133 (TTY: 711), Monday - Friday, 7 a.m. to 7 p.m.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene otras preguntas sobre sus medicamentos, comun\u00edquese con el profesional que expide las recetas. Si tiene dudas sobre sus beneficios de [patient_org.report.reportPlanDisplayName], llame a Servicios al Miembro. El n\u00famero gratuito figura al dorso de su tarjeta de identificaci\u00f3n de miembro."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj"
+                    ],
+                    "string": "If you have any other questions about your medicines, please contact your prescriber. If you have any questions about your Fidelis Care benefits, please call Member Services toll-free at 1-888-453-2534 (TTY 711), Monday - Friday, 8a.m. - 6p.m.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene otras preguntas sobre sus medicamentos, comun\u00edquese con el profesional que expide las recetas. Si tiene alguna pregunta sobre sus beneficios de Fidelis Care, llame a Servicios al Miembro al n\u00famero gratuito 1-888-453-2534 (TTY 711), con atenci\u00f3n de lunes a viernes, de 8:00 a. m. a 6:00 p. m."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:silversummit_healthplan:silver_summit"
+                    ],
+                    "string": "If you have any other questions about your medicines, please contact your prescriber. If you have any questions about your SliverSummit Healthplan benefits, please call Member Services from Monday through Friday, 8am to 8pm. The toll-free number is listed on the back of your Member ID card.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene otras preguntas sobre sus medicamentos, comun\u00edquese con el profesional que expide las recetas. Si tiene dudas sobre sus beneficios con SliverSummit Healthplan, llame a Servicios al Miembro de lunes a viernes, de 8am a 8pm. El n\u00famero gratuito figura al dorso de su tarjeta de identificaci\u00f3n de miembro."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:absolute_total_care:atc"
+                    ],
+                    "string": "If you have any other questions about your medicines, please contact your prescriber. If you have any questions about your Absolute Total Care benefits, please call Member Services Monday-Friday from 8 a.m. to 8 p.m (EST). The toll-free number is listed on the back of your Member ID card.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene otras preguntas sobre sus medicamentos, comun\u00edquese con el profesional que expide las recetas. Si tiene dudas sobre sus beneficios de Absolute Total Care, llame a Servicios al Miembro de lunes a viernes de 8am a 8pm hora del este. El n\u00famero gratuito figura al dorso de su tarjeta de identificaci\u00f3n de miembro."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc"
+                    ],
+                    "string": "If you have any questions about your medicines, please contact your prescriber. If you have any questions about your Coordinated Care benefits, please call Member Services from Monday-Friday 8 a.m to 5 p.m. The toll-free number is listed on the back of your Member ID card.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene otras preguntas sobre sus medicamentos, comun\u00edquese con el profesional que expide las recetas. Si tiene dudas sobre sus beneficios de [patient_org.report.reportPlanDisplayName], llame a Servicios al Miembro. El n\u00famero gratuito figura al dorso de su tarjeta de identificaci\u00f3n de miembro."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:carolina_complete_health:carolina_complete_health"
+                    ],
+                    "string": "If you have any other questions about your medicines, please contact your prescriber. If you have any questions about your Carolina Complete Health benefits, please call Member Services at 1-833-552-3876 (TTY: 711).",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene otras preguntas sobre sus medicamentos, comun\u00edquese con el profesional que expide las recetas. Si tiene dudas sobre sus beneficios de [patient_org.report.reportPlanDisplayName], llame a Servicios al Miembro. El n\u00famero gratuito figura al dorso de su tarjeta de identificaci\u00f3n de miembro."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:nh_healthy_families:gshp"
+                    ],
+                    "string": "If you have any other questions about your medicines, please contact your prescriber. If you have any questions about your NH Healthy Families benefits, please call Member Services at 1-866-769-3085 (TDD/TTY: 1-855-742-0123). We're here for you Monday-Wednesday, 8 a.m. to 8 p.m., Thursday and Friday, 8 a.m. to 5 p.m. The toll-free number is also listed on the back of your Member ID card.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene otras preguntas sobre sus medicamentos, comun\u00edquese con el profesional que expide las recetas. Si tiene dudas sobre sus beneficios de NH Healthy Families, llame a Servicios al Miembro de 1-866-769-3085 (TDD/TTY: 1-855-742-0123). Estamos aqui para usted de lunes a miercoles ,8am a 8 pm. hora estandar del este, jueves y viernes, 8am a 5pm hora estandar de este. El n\u00famero gratuito figura al dorso de su tarjeta de identificaci\u00f3n de miembro."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We want to help you reach your best level of health through the <em>Healthy Living</em> program. We look forward to working with you and your providers.",
+                    "string_replacements": {
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp": {
+                            "English": "We want to help your child reach their best level of health through the <i>Healthy Living</i> program. We look forward to working with you and their providers.",
+                            "Spanish": "Queremos ayudar a su hijo(a) a alcanzar su mejor nivel de salud a trav\u00e9s del Programa Healthy Living. Esperamos trabajar con usted y sus proveedores."
+                        },
+                        "centene:medicaid:sunshine_health:sshp:fl_cw": {
+                            "English": "We want to help your child reach their best level of health through the <i>Healthy Living</i> program. We look forward to working with you, your child, and their providers.",
+                            "Spanish": "Queremos ayudar a su hijo(a) a alcanzar su mejor nivel de salud a trav\u00e9s del Programa <i>Healthy Living</i>. Esperamos trabajar con usted, su hijo(a) y sus proveedores."
+                        },
+                        "centene:medicaid:trillium_community_health_plan:oregon_trillium": {
+                            "Spanish": "Queremos ayudarle a alcanzar el mejor estado de salud posible a trav\u00e9s del <i>Healthy Living Program</i>. Esperamos poder trabajar con usted y con sus proveedores."
+                        },
+                        "default": {
+                            "Spanish": "Queremos ayudarle a alcanzar el mejor estado de salud posible a trav\u00e9s del programa <em>Healthy Living</em>. Esperamos poder trabajar con usted y con sus proveedores."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphMoreSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "string_replacements": {
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp": {
+                            "English": "Thank you,",
+                            "Spanish": "Gracias,"
+                        },
+                        "default": {
+                            "Spanish": "Atentamente,"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphSomeSpaceAfterText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_approval_is_required_and_status_is_approved_and_user_exists",
+                    "string": "<font fontName=\"MrDeHaviland-normal\" fontSize=\"32\">{pharmacist_name}&nbsp;&nbsp;&nbsp;</font>",
+                    "text_style": {
+                        "leading": 32.0,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "report_approval_is_required_and_status_is_approved_and_user_exists",
+                    "string": "<font fontName=\"MrDeHaviland-normal\" fontSize=\"32\">{pharmacist_name}</font>&nbsp; and <font fontName=\"MrDeHaviland-normal\" fontSize=\"32\">{pharmacist_approver_name}</font>&nbsp;&nbsp;&nbsp;",
+                    "text_style": {
+                        "leading": 32.0,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_approval_is_required_and_status_is_approved_and_user_exists",
+                    "string": "{pharmacist_name}, {pharmacist_job_title}, [patient_org.report.reportPlanDisplayName]",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 0.0,
+                        "spaceBefore": 0.0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "report_approval_is_required_and_status_is_approved_and_user_exists",
+                    "string": "{pharmacist_name}, {pharmacist_job_title} and {pharmacist_approver_name}, {pharmacist_approver_job_title}, [patient_org.report.reportPlanDisplayName]",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "{pharmacist_name}, {pharmacist_job_title} y {pharmacist_approver_name}, {pharmacist_approver_job_title}, [patient_org.report.reportPlanDisplayName]"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 0.0,
+                        "spaceBefore": 0.0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Healthy Living Program: 1-866-339-2787 (TTY 711)<br/>Monday to Friday, 8 a.m. to 8 p.m., Eastern",
+                    "string_replacements": {
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp": {
+                            "English": "Health Hotline<br/>1-866-339-2787 (TTY 711)<br/>Monday-Friday, 8 a.m. to 8 p.m., Eastern"
+                        },
+                        "default": {
+                            "Spanish": "Healthy Living Program: 1-866-339-2787 (TTY 711)<br/>Lunes a viernes, de 8 a. m. a 8 p. m., hora del este"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 0.0,
+                        "spaceBefore": 0.0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc"
+                    ],
+                    "string": "[patient_org.report.reportPlanDisplayName]",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 0.0,
+                        "spaceBefore": 0.0
+                    }
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15.0,
+                    "show_for": [
+                        "centene:medicaid:meridian:il_medicaid",
+                        "centene:medicaid:youthcare_healthchoice_illinois:centene_il_yc"
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:meridian:il_medicaid",
+                        "centene:medicaid:youthcare_healthchoice_illinois:centene_il_yc"
+                    ],
+                    "string": "REPLACE_ME",
+                    "string_replacements": {
+                        "centene:medicaid:meridian:il_medicaid": {
+                            "English": "Enclosure: IL Meridian Medicaid Plan Non-discrimination Statement",
+                            "Spanish": "Enclosure: IL Meridian Medicaid Plan Non-discrimination Statement"
+                        },
+                        "centene:medicaid:youthcare_healthchoice_illinois:centene_il_yc": {
+                            "English": "Enclosure: YouthCare HealthChoice Illinois (YouthCare)",
+                            "Spanish": "Enclosure: YouthCare HealthChoice Illinois (YouthCare)"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 0.0,
+                        "spaceBefore": 0.0
+                    }
+                }
+            },
+            {
+                "spacer": {
+                    "height": 40.0,
+                    "show_for": [
+                        "centene:medicaid:trillium_community_health_plan:oregon_trillium"
+                    ]
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Enclosures:",
+                        [
+                            "Encl. 1 - Nondiscrimination Notice",
+                            "Encl. 2 - Notice of Language Assistance"
+                        ]
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Spanish": [
+                                "Recintos:",
+                                [
+                                    "1. Aviso de no discriminacion",
+                                    "2. Aviso de Asistencia Linguistica"
+                                ]
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletColor": "white",
+                        "bulletType": "bullet",
+                        "leftIndent": 10.0,
+                        "spaceAfter": 8.0,
+                        "start": "\u2022"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 0.0,
+                        "spaceAfter": 2.0,
+                        "spaceBefore": 2.0
+                    },
+                    "show_for": [
+                        "centene:medicaid:trillium_community_health_plan:oregon_trillium"
+                    ],
+                    "sub_list_attributes": {
+                        "bulletColor": "white",
+                        "bulletType": "bullet",
+                        "start": "\u2022"
+                    },
+                    "sub_list_item_attributes": {
+                        "leftIndent": 18.0,
+                        "spaceAfter": 2.0,
+                        "spaceBefore": 2.0
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "spacer": {
+                    "height": 50.0,
+                    "show_for": [
+                        "centene:medicaid:ohana_health_plan:medicaid_wc_hi"
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:ohana_health_plan:medicaid_wc_hi"
+                    ],
+                    "string": "'Ohana Health Plans, a plan offered by WellCare Health Insurance of Arizona, Inc",
+                    "string_replacements": {
+                        "centene:medicaid:ohana_health_plan:medicaid_wc_hi": {
+                            "English": "'Ohana Health Plans, a plan offered by WellCare Health Insurance of Arizona, Inc",
+                            "Spanish": ""
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 0.0,
+                        "spaceBefore": 0.0
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72.0,
+                "left": 48.0,
+                "right": 48.0,
+                "top": 36.0
+            },
+            "pagination": {
+                "show": false
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "orientation": "portrait",
+        "typography": {
+            "fonts": {
+                "MrDeHaviland": [
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/ofl/mrdehaviland/MrDeHaviland-Regular.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "normal"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/ofl/mrdehaviland/MrDeHaviland-Regular.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "italic"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/ofl/mrdehaviland/MrDeHaviland-Regular.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "bold"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/ofl/mrdehaviland/MrDeHaviland-Regular.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "boldItalic"
+                    }
+                ]
+            },
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12.0,
+                    "leading": 20.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "BannerText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "BannerText1": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "BannerText"
+                },
+                "BannerText2": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "BannerText"
+                },
+                "BannerText3": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "BannerText"
+                },
+                "BannerText4": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "BannerText"
+                },
+                "BannerText5": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "BannerText"
+                },
+                "DisclaimerText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DocIdText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 9.0,
+                    "leading": 14.999999999999998,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterFormIdText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 10.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText1": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText2": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText3": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText4": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "Header4ParagraphText": {
+                    "fontName": "Arial-bold",
+                    "parent_style": "ParagraphText",
+                    "spaceAfter": 2.0
+                },
+                "ListItemParagraphText": {
+                    "parent_style": "ParagraphText",
+                    "spaceAfter": 2.0
+                },
+                "ParagraphHeader": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 18.0,
+                    "leading": 18.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphMoreSpaceAfterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12.0,
+                    "leading": 20.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 18.0,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphNarrowText": {
+                    "fontName": "Arial-Narrow-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.399999999999999,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphPaperReductionActionText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 11.666666666666666,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "ParagraphPullOutText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 14.399999999999999,
+                    "leading": 23.999999999999996,
+                    "parent_style": "BodyText",
+                    "text_alignment": "center"
+                },
+                "ParagraphSignature": {
+                    "fontName": "Lucida-Handwriting-normal",
+                    "fontSize": 18.0,
+                    "leading": 29.999999999999996,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 9.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphSomeSpaceAfterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12.0,
+                    "leading": 20.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12.0,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12.0,
+                    "leading": 20.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.399999999999999,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "SmallParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 8.0,
+                    "leading": 13.333333333333332,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 9.599999999999998,
+                    "spaceBefore": 1.3333333333333333,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-09-29T17:04:36.453515"
+}

@@ -1,0 +1,950 @@
+{
+    "created": "2025-10-06T09:26:10.664846",
+    "id": "2b14b354-f53d-487b-ae71-3a0733b019cb",
+    "managed": true,
+    "name": "Centene Medicare Member DMP Pharmacy and Provider Selection Form 2025 (Multiple SubOrg / Standard Font)",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 1.8,
+                    "string": "Form CMS-10874",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 51.42857142857143
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 1.8,
+                    "string": "OMB Approval No. 0938-1465 (Expires 11/30/2027)",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 51.42857142857143
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 1.8,
+                    "string": "Form CMS-1087",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 51.42857142857143
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 1.8,
+                    "string": "OMB Approval No. 0938-1465 (Expires 11/30/2027)",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 504.0,
+                    "x": 54.0,
+                    "y": 51.42857142857143
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "[patient_org.report.reportPlanDisplayName] PHARMACY AND PRESCRIBER SELECTION FORM",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 12.0,
+                        "spaceBefore": 12.0,
+                        "textTransform": "uppercase",
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "55%",
+                        "45%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 12.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "Enrollee's Name: {patient_full_name}"
+                            },
+                            {
+                                "string": "Member Number: {patient_member_id}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "You can give us this information by calling us at <font backColor=\"#FFFF00\">1-866-339-2787] (TTY: 711)</font>, faxing this form to us at <font backColor=\"#FFFF00\">1-877-849-5074</font>, or by sending the completed form to: <font backColor=\"#FFFF00\">rDUR Case Management Services, PO Box 31403, Tampa, FL 33631-3403</font>.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "I prefer to use the following pharmacy (write in the information for up to two, in order of preference):",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "35%",
+                        "100%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 6.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "<u width=\"0.5\"><i>Choice #1</i></u>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Pharmacy Name:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Address:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Telephone Number:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LINEBELOW": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.5,
+                                    "#000000"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    6.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    12.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "35%",
+                        "100%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 6.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "<u width=\"0.5\"><i>Choice #2</i></u>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Pharmacy Name:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Address:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Telephone Number:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LINEBELOW": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.5,
+                                    "#000000"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    6.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    12.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<br/><br/>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "I prefer to use the following prescriber (write in the information for up to two, in order of preference):",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "35%",
+                        "100%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 6.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "<u width=\"0.5\"><i>Choice #1</i></u>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Pharmacy Name:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Address:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Telephone Number:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LINEBELOW": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.5,
+                                    "#000000"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    6.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    12.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "35%",
+                        "100%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 6.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": "<u width=\"0.5\"><i>Choice #2</i></u>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Pharmacy Name:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Address:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Telephone Number:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LINEBELOW": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    0.5,
+                                    "#000000"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    6.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    0.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    12.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 75.0,
+                "left": 48.0,
+                "right": 48.0,
+                "top": 48.0
+            },
+            "pagination": {
+                "font_leading": 10.0,
+                "font_name": "Tinos-normal",
+                "font_size": 10.0,
+                "show": false,
+                "y": 18.0
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "orientation": "portrait",
+        "typography": {
+            "fonts": {
+                "Arimo": [
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/arimo/static/Arimo-Regular.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "normal"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/arimo/static/Arimo-Italic.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "italic"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/arimo/static/Arimo-Bold.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "bold"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/arimo/static/Arimo-BoldItalic.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "boldItalic"
+                    }
+                ],
+                "Tinos": [
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/tinos/Tinos-Regular.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "normal"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/tinos/Tinos-Italic.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "italic"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/tinos/Tinos-Bold.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "bold"
+                    },
+                    {
+                        "file": {
+                            "path": "fonts/licensed/open/google/apache/tinos/Tinos-BoldItalic.ttf",
+                            "type": "s3"
+                        },
+                        "weight": "boldItalic"
+                    }
+                ]
+            },
+            "text_styles": {
+                "DisclaimerText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DocIdText": {
+                    "fontName": "Arimo-normal",
+                    "fontSize": 9.0,
+                    "leading": 10.799999999999999,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterFormIdText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Tinos-normal",
+                    "fontSize": 12.0,
+                    "leading": 21.6,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText1": {
+                    "fontName": "Tinos-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText2": {
+                    "fontName": "Tinos-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText3": {
+                    "fontName": "Tinos-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText4": {
+                    "fontName": "Tinos-normal",
+                    "parent_style": "FooterText"
+                },
+                "ListItemParagraphText": {
+                    "parent_style": "ParagraphText",
+                    "spaceAfter": 2.0
+                },
+                "ParagraphHeaderText": {
+                    "fontName": "Tinos-normal",
+                    "fontSize": 12.0,
+                    "leading": 13.799999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 0.0,
+                    "spaceBefore": 0.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphNarrowText": {
+                    "fontName": "Arial-Narrow-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 6.0,
+                    "spaceBefore": 0.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphPaperReductionActionText": {
+                    "fontName": "Tinos-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.049999999999999,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "ParagraphSignature": {
+                    "fontName": "Lucida-Handwriting-normal",
+                    "fontSize": 18.0,
+                    "leading": 20.7,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 9.0,
+                    "spaceBefore": 0.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Tinos-normal",
+                    "fontSize": 12.0,
+                    "leading": 13.799999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12.0,
+                    "spaceBefore": 0.0,
+                    "text_alignment": "left"
+                },
+                "SmallParagraphText": {
+                    "fontName": "Tinos-normal",
+                    "fontSize": 10.0,
+                    "leading": 11.5,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 10.0,
+                    "spaceBefore": 0.0,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-10-06T09:26:10.664846"
+}

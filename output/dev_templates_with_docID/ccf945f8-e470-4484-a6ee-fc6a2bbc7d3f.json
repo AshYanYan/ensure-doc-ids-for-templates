@@ -1,0 +1,2160 @@
+{
+    "created": "2025-09-30T13:02:01.092579",
+    "id": "ccf945f8-e470-4484-a6ee-fc6a2bbc7d3f",
+    "managed": true,
+    "name": "Centene Medicaid Member To-Do List 2025 (Standard Font)",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "line": {
+                    "hide_for": [
+                        "centene:medicaid:managed_health_services_mhs:mhs_in",
+                        "centene:medicaid:sunshine_health:sshp:fl",
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "stroke_color": "#000000",
+                    "stroke_width": 1.0,
+                    "x_end": 576.0,
+                    "x_start": 36.0,
+                    "y_end": 56.0,
+                    "y_start": 56.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "hide_for": [
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc",
+                        "centene:medicaid:absolute_total_care:atc",
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health",
+                        "centene:medicaid:sunflower_health_plan:sunflower_health_plan",
+                        "centene:medicaid:nebraska_total_care:nebraska_care",
+                        "centene:medicaid:peach_state_health_plan:pshp",
+                        "centene:medicaid:sunshine_health:sshp:fl",
+                        "centene:medicaid:sunshine_health:sshp:fl_cw",
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "hide_for": [
+                        "centene:medicaid:sunflower_health_plan:sunflower_health_plan",
+                        "centene:medicaid:peach_state_health_plan:pshp",
+                        "centene:medicaid:sunshine_health:sshp:fl",
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "string": "1-866-796-0530",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 40.8
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "string": "<font color='#F35B00'><b>SunshineHealth.com</b></font>",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 40.8
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "string": "(TTY 1-800-955-8770)",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 28.8
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "string": "1-866-796-0530",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "string": "<font color='#F35B00'><b>SunshineHealth.com</b></font>",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "string": "(Tel\u00e9fono de texto 1-800-955-8770)",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 36.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "1-855-463-4100",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 40.8
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "<font color='#F35B00'><b>SunshineHealth.com</b></font>",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 40.8
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "(TTY 1-800-955-8770)",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 28.8
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "1-855-463-4100",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 40.8
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "<font color='#F35B00'><b>SunshineHealth.com</b></font>",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 40.8
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "(Tel\u00e9fono de texto 1-800-955-8770)",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 28.8
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl_cw"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:peach_state_health_plan:pshp"
+                    ],
+                    "string": "PSHP_020223_0055",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 40.8
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:peach_state_health_plan:pshp"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:peach_state_health_plan:pshp"
+                    ],
+                    "string": "PSHP_020822_0073",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 40.8
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:peach_state_health_plan:pshp"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc"
+                    ],
+                    "string": "HCA 31845/RX056",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:coordinated_care_of_washington_inc:wcc"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:absolute_total_care:atc"
+                    ],
+                    "string": "ATC-01232023-M-2-SP",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 28.8
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_spanish",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:absolute_total_care:atc"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health"
+                    ],
+                    "string": "CAD_144903E_State Approved 02212024",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 72.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health"
+                    ],
+                    "string": "OK4CADFRM44903E_0000",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 72.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health"
+                    ],
+                    "string": "Caid_Standard-Form-OK-Eng_01242024",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:oklahoma_complete_health:oklahoma_complete_health"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:sunflower_health_plan:sunflower_health_plan"
+                    ],
+                    "string": "<font><i>KDHE-Approved 1/24/2023</i></font>",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:sunflower_health_plan:sunflower_health_plan"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:nebraska_total_care:nebraska_care"
+                    ],
+                    "string": "Form CMS-10396 (Expires: 02/24)",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 43.30434782608696
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:nebraska_total_care:nebraska_care"
+                    ],
+                    "string": "Form Approved OMB No. 0938-1154",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 43.30434782608696
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:nebraska_total_care:nebraska_care"
+                    ],
+                    "string": "CAD_109575E_",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 31.30434782608696
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:nebraska_total_care:nebraska_care"
+                    ],
+                    "string": "NA2CADLTR09575E_0000",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 31.30434782608696
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:nebraska_total_care:nebraska_care"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "<font color=\"#5B5B5B\">ArkansasTotalCare.com</font>",
+                    "text_style": {
+                        "parent_style": "FooterText1",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "<font color=\"#5B5B5B\">1-866-282-6280 (TTY: 711)</font>",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "<font color=\"#5B5B5B\">\u00a9 2023 Arkansas Total Care, Inc. All rights reserved.</font>",
+                    "text_style": {
+                        "parent_style": "FooterText3",
+                        "text_alignment": "left"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "<font color=\"#5B5B5B\">ARTC23-H-003</font>",
+                    "text_style": {
+                        "parent_style": "FooterText4",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 48.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            },
+            {
+                "image": {
+                    "anchor": "c",
+                    "display_condition": "report_text_language_is_english",
+                    "show_for": [
+                        "centene:medicaid:managed_health_services_mhs:mhs_in"
+                    ],
+                    "storage": {
+                        "path": "assets/centene/2025-08-01/FS-3613/indiana_footer.png",
+                        "type": "S3"
+                    },
+                    "width": 540.0,
+                    "x": 306.0,
+                    "y": 60.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 10.0,
+                    "show_for": [
+                        "centene:medicaid:managed_health_services_mhs:mhs_in"
+                    ],
+                    "string": "0123.PH.M.LT.1 2/23",
+                    "text_style": {
+                        "parent_style": "FooterText2",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 68.0
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "report_text_language_is_english",
+                    "height": 9.0,
+                    "show_for": [
+                        "centene:medicaid:managed_health_services_mhs:mhs_in"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540.0,
+                    "x": 36.0,
+                    "y": 18.0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl",
+                        "centene:medicaid:sunshine_health:sshp:fl_cw",
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp",
+                        "centene:medicaid:managed_health_services_mhs:mhs_in",
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "Recommended To-Do List for {patient_full_name}, DOB: {patient_date_birth}",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Lista de actividades recomendadas para {patient_full_name}, fecha de nacimiento: {patient_date_birth}"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "string": "Recommended To-Do List for {patient_full_name}, DOB: {patient_date_birth}",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Lista de actividades recomendadas para {patient_full_name}, fecha de nacimiento: {patient_date_birth}"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        150.0,
+                        350.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "image": {
+                                "alignment": "right",
+                                "height": 36.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "right"
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl",
+                        "centene:medicaid:sunshine_health:sshp:fl_cw",
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "spaceAfter": 24.0,
+                    "table_items": [
+                        [
+                            {
+                                "filename": "{org_logo}"
+                            },
+                            {
+                                "string": "Recommended To-Do List for {patient_full_name}, DOB: {patient_date_birth}",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "Lista de actividades recomendadas para {patient_full_name}, fecha de nacimiento: {patient_date_birth}"
+                                    }
+                                }
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        350.0,
+                        150.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "right"
+                                }
+                            }
+                        },
+                        {
+                            "image": {
+                                "alignment": "right",
+                                "height": 54.0
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "centene:medicaid:managed_health_services_mhs:mhs_in"
+                    ],
+                    "spaceAfter": 4.0,
+                    "table_items": [
+                        [
+                            {
+                                "string": ""
+                            },
+                            {
+                                "filename": "{org_logo}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    0.0
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "RIGHT"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Recommended To-Do List</b>",
+                    "string_replacements": {
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp": {
+                            "Spanish": "<b>Lista de tareas recomendadas</b>"
+                        },
+                        "centene:medicaid:sunshine_health:sshp:fl_cw": {
+                            "Spanish": "<b>Lista de tareas recomendadas</b>"
+                        },
+                        "default": {
+                            "Spanish": "<b>Lista de actividades recomendadas</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphHeader"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": null,
+                    "stroke_width": 1.0
+                }
+            },
+            {
+                "spacer": {
+                    "height": 5.0
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Prepared on: <i>{cmr_date}</i>",
+                    "string_replacements": {
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp": {
+                            "Spanish": "Preparado el: {cmr_date}"
+                        },
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj": {
+                            "Spanish": "Preparada el <i>{cmr_date}</i>"
+                        },
+                        "centene:medicaid:sunflower_health_plan:sunflower_health_plan": {
+                            "Spanish": "Preparada el <i>{cmr_date}</i>"
+                        },
+                        "centene:medicaid:sunshine_health:sshp:fl": {
+                            "Spanish": "Preparado el: <i>{cmr_date}</i>"
+                        },
+                        "centene:medicaid:sunshine_health:sshp:fl_cw": {
+                            "Spanish": "Preparado el: <i>{cmr_date}</i>"
+                        },
+                        "default": {
+                            "Spanish": "Preparado el <i>{cmr_date}</i>"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 14.0,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": null,
+                    "stroke_width": 1.0
+                }
+            },
+            {
+                "spacer": {
+                    "height": 5.0
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj"
+                    ],
+                    "string": "You can get the best results from your medications by completing the items on this <b>\"To-Do List.\"</b>",
+                    "string_replacements": {
+                        "centene:medicaid:arkansas_total_care:total_care_ar": {
+                            "English": "You can get the best results from your medications by completing the items on this <b>To-Do List</b>."
+                        },
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp": {
+                            "English": "You can get the best results from your child's medications by completing the items on this <b>To-Do List.</b>",
+                            "Spanish": "Puede obtener los mejores resultados de los medicamentos de su hijo(a) si completa los elementos de esta <b>lista de tareas</b>."
+                        },
+                        "centene:medicaid:sunshine_health:sshp:fl": {
+                            "Spanish": "Puede obtener los mejores resultados de sus medicamentos si completa los elementos de esta <b>lista de tareas</b>."
+                        },
+                        "centene:medicaid:sunshine_health:sshp:fl_cw": {
+                            "English": "Your child can get the best results from their medications by completing the items on this <b>\u201cTo-Do List.\"</b>",
+                            "Spanish": "Su hijo(a) puede obtener los mejores resultados de sus medicamentos si completa los elementos de esta <b>\"lista de tareas\"</b>."
+                        },
+                        "default": {
+                            "Spanish": "Puede aprovechar al m\u00e1ximo sus medicamentos si toma las medidas que figuran en esta <b>lista de actividades</b>."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "centene:medicaid:fidelis_care:medicaid_wc_nj"
+                    ],
+                    "string": "You can get the best results from your medications by completing the items on this <b>\u201cTo-Do List.\"</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Podr\u00e1 aprovechar al m\u00e1ximo sus medicamentos si toma las medidas que figuran en esta <b>lista de actividades</b>."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        50.0,
+                        418.0
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "image": {
+                                "alignment": "left",
+                                "height": 32.0
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_items": [
+                        [
+                            {
+                                "filename": "/images/lightbulb.png"
+                            },
+                            {
+                                "string": "Bring your <b>To-Do List</b> when you go to your doctor. Be sure to share it with your family or others who care for you.",
+                                "string_replacements": {
+                                    "centene:medicaid:childrens_medical_services_health_plan:sshp": {
+                                        "English": "Bring the <b>To-Do List</b> when your child goes to see their doctor. Be sure to share it with your family or others who care for your child.",
+                                        "Spanish": "Lleve la <b>lista de tareas</b> cuando su hijo(a) vaya a ver a su m\u00e9dico. Aseg\u00farese de compartirlo con su familia u otras personas que cuiden a su hijo(a)."
+                                    },
+                                    "centene:medicaid:fidelis_care:medicaid_wc_nj": {
+                                        "Spanish": "Lleve su <b>lista de actividades</b> cuando vaya a las citas con su PCP. Aseg\u00farese de compartirla con su familia o con las personas que cuidan de usted."
+                                    },
+                                    "centene:medicaid:sunshine_health:sshp:fl": {
+                                        "Spanish": "Lleve su <b>lista de tareas</b> cuando vaya al m\u00e9dico. Aseg\u00farese de compartirla con su familia u otras personas que lo cuiden."
+                                    },
+                                    "centene:medicaid:sunshine_health:sshp:fl_cw": {
+                                        "English": "Bring your child's <b>To-Do List</b> when they go to their doctor. Be sure to share it with your family or others who care for your child.",
+                                        "Spanish": "Lleve la <b>lista de tareas</b> de su hijo(a) cuando vayan al m\u00e9dico. Aseg\u00farese de compartirlo con su familia u otras personas que cuiden a su hijo(a)."
+                                    },
+                                    "default": {
+                                        "Spanish": "Lleve su <b>lista de actividades</b> cuando vaya a las citas con el m\u00e9dico. Aseg\u00farese de compartirla con su familia o con las personas que cuidan de usted."
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 10.0
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>My To-Do List</b>",
+                    "string_replacements": {
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp": {
+                            "English": "<b>My Child's To-Do List</b>",
+                            "Spanish": "<b>La lista de tareas de mi hijo(a)</b>"
+                        },
+                        "centene:medicaid:sunshine_health:sshp:fl": {
+                            "Spanish": "<b>Mi lista de tareas</b>"
+                        },
+                        "centene:medicaid:sunshine_health:sshp:fl_cw": {
+                            "Spanish": "<b>Mi lista de tareas</b>"
+                        },
+                        "default": {
+                            "Spanish": "<b>Mi lista de actividades</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "spacer": {
+                    "height": 10.0
+                }
+            },
+            {
+                "multitable": {
+                    "column_widths": [
+                        "50%",
+                        "50%"
+                    ],
+                    "data_source": "patient_todo_list_items_map_auto",
+                    "hide_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp",
+                        "centene:medicaid:sunshine_health:sshp:fl",
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "row_heights": [
+                        6.0,
+                        35.0,
+                        null
+                    ],
+                    "row_template": [
+                        {
+                            "auto": {
+                                "template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "ParagraphText"
+                                        }
+                                    },
+                                    "rich": {
+                                        "transforms": [
+                                            {
+                                                "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <?xml-model href=\"schemas/xslt10.rnc\"\n            type=\"application/xml\"\n            schematypens=\"http://relaxng.org/ns/structure/1.0\"?>\n<xsl:stylesheet\n        xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\n        xmlns:x=\"http://www.w3.org/1999/xhtml\"\n        version=\"1.0\"\n        >\n    <xsl:template match=\"@* | node()\">\n        <xsl:copy>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ListItemParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h1 | h2 | h3 | h4 | h5 | h6\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h4\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">Header4ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleUnorderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleOrderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleUnorderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleOrderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n</xsl:stylesheet>",
+                                                "type": "xsl"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "auto": {
+                                "template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "ParagraphText"
+                                        }
+                                    },
+                                    "rich": {
+                                        "transforms": [
+                                            {
+                                                "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <?xml-model href=\"schemas/xslt10.rnc\"\n            type=\"application/xml\"\n            schematypens=\"http://relaxng.org/ns/structure/1.0\"?>\n<xsl:stylesheet\n        xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\n        xmlns:x=\"http://www.w3.org/1999/xhtml\"\n        version=\"1.0\"\n        >\n    <xsl:template match=\"@* | node()\">\n        <xsl:copy>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ListItemParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h1 | h2 | h3 | h4 | h5 | h6\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h4\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">Header4ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleUnorderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleOrderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleUnorderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleOrderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n</xsl:stylesheet>",
+                                                "type": "xsl"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 18.0,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "<b>TOPIC {multitable_index_from_1}</b><br/><b>What we talked about:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<b>TEMA {multitable_index_from_1}</b><br/><b>De qu\u00e9 hablamos:</b>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "<b>TOPIC {multitable_index_from_1}</b><br/><b>What action I should do:</b>",
+                                "string_replacements": {
+                                    "centene:medicaid:sunshine_health:sshp:fl_cw": {
+                                        "Spanish": "<b>TEMA {multitable_index_from_1}</b><br/><b>Qu\u00e9 acci\u00f3n debo tomar:</b>"
+                                    },
+                                    "default": {
+                                        "Spanish": "<b>TEMA {multitable_index_from_1}</b><br/><b>Qu\u00e9 medida deber\u00eda tomar:</b>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    10.0
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ],
+                    "top_border": true
+                }
+            },
+            {
+                "multitable": {
+                    "column_widths": [
+                        "50%",
+                        "50%"
+                    ],
+                    "data_source": "patient_todo_list_items_map_auto",
+                    "row_heights": [
+                        6.0,
+                        35.0,
+                        null
+                    ],
+                    "row_template": [
+                        {
+                            "auto": {
+                                "template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "ParagraphText"
+                                        }
+                                    },
+                                    "rich": {
+                                        "transforms": [
+                                            {
+                                                "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <?xml-model href=\"schemas/xslt10.rnc\"\n            type=\"application/xml\"\n            schematypens=\"http://relaxng.org/ns/structure/1.0\"?>\n<xsl:stylesheet\n        xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\n        xmlns:x=\"http://www.w3.org/1999/xhtml\"\n        version=\"1.0\"\n        >\n    <xsl:template match=\"@* | node()\">\n        <xsl:copy>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ListItemParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h1 | h2 | h3 | h4 | h5 | h6\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h4\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">Header4ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleUnorderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleOrderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleUnorderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleOrderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n</xsl:stylesheet>",
+                                                "type": "xsl"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "auto": {
+                                "template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "ParagraphText"
+                                        }
+                                    },
+                                    "rich": {
+                                        "transforms": [
+                                            {
+                                                "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <?xml-model href=\"schemas/xslt10.rnc\"\n            type=\"application/xml\"\n            schematypens=\"http://relaxng.org/ns/structure/1.0\"?>\n<xsl:stylesheet\n        xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\n        xmlns:x=\"http://www.w3.org/1999/xhtml\"\n        version=\"1.0\"\n        >\n    <xsl:template match=\"@* | node()\">\n        <xsl:copy>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ListItemParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h1 | h2 | h3 | h4 | h5 | h6\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h4\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">Header4ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleUnorderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleOrderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleUnorderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleOrderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n</xsl:stylesheet>",
+                                                "type": "xsl"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "centene:medicaid:arkansas_total_care:total_care_ar"
+                    ],
+                    "spaceAfter": 18.0,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "<b>TOPIC {multitable_index_from_1}</b><br/><b>What we talked about:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<b>TEMA {multitable_index_from_1}</b><br/><b>De qu\u00e9 hablamos:</b>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "<b>TOPIC {multitable_index_from_1}</b><br/><b>What action I should take:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<b>TEMA {multitable_index_from_1}</b><br/><b>Qu\u00e9 medida deber\u00eda tomar:</b>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    10.0
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ],
+                    "top_border": true
+                }
+            },
+            {
+                "multitable": {
+                    "column_widths": [
+                        "50%",
+                        "50%"
+                    ],
+                    "data_source": "patient_todo_list_items_map_auto",
+                    "row_heights": [
+                        6.0,
+                        35.0,
+                        null
+                    ],
+                    "row_template": [
+                        {
+                            "auto": {
+                                "template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "ParagraphText"
+                                        }
+                                    },
+                                    "rich": {
+                                        "transforms": [
+                                            {
+                                                "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <?xml-model href=\"schemas/xslt10.rnc\"\n            type=\"application/xml\"\n            schematypens=\"http://relaxng.org/ns/structure/1.0\"?>\n<xsl:stylesheet\n        xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\n        xmlns:x=\"http://www.w3.org/1999/xhtml\"\n        version=\"1.0\"\n        >\n    <xsl:template match=\"@* | node()\">\n        <xsl:copy>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ListItemParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h1 | h2 | h3 | h4 | h5 | h6\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h4\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">Header4ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleUnorderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleOrderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleUnorderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleOrderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n</xsl:stylesheet>",
+                                                "type": "xsl"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "auto": {
+                                "template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "ParagraphText"
+                                        }
+                                    },
+                                    "rich": {
+                                        "transforms": [
+                                            {
+                                                "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <?xml-model href=\"schemas/xslt10.rnc\"\n            type=\"application/xml\"\n            schematypens=\"http://relaxng.org/ns/structure/1.0\"?>\n<xsl:stylesheet\n        xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\n        xmlns:x=\"http://www.w3.org/1999/xhtml\"\n        version=\"1.0\"\n        >\n    <xsl:template match=\"@* | node()\">\n        <xsl:copy>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ListItemParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h1 | h2 | h3 | h4 | h5 | h6\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h4\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">Header4ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleUnorderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleOrderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleUnorderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleOrderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n</xsl:stylesheet>",
+                                                "type": "xsl"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "centene:medicaid:sunshine_health:sshp:fl"
+                    ],
+                    "spaceAfter": 18.0,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "<b>TOPIC {multitable_index_from_1}</b><br/><b>What we talked about:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<b>TEMA {multitable_index_from_1}</b><br/><b>De qu\u00e9 hablamos:</b>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "<b>TOPIC {multitable_index_from_1}</b><br/><b>What action I should do:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<b>TEMA {multitable_index_from_1}</b><br/><b>Qu\u00e9 acci\u00f3n debo tomar:</b>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    10.0
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ],
+                    "top_border": true
+                }
+            },
+            {
+                "multitable": {
+                    "column_widths": [
+                        "50%",
+                        "50%"
+                    ],
+                    "data_source": "patient_todo_list_items_map_auto",
+                    "row_heights": [
+                        6.0,
+                        35.0,
+                        null
+                    ],
+                    "row_template": [
+                        {
+                            "auto": {
+                                "template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "ParagraphText"
+                                        }
+                                    },
+                                    "rich": {
+                                        "transforms": [
+                                            {
+                                                "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <?xml-model href=\"schemas/xslt10.rnc\"\n            type=\"application/xml\"\n            schematypens=\"http://relaxng.org/ns/structure/1.0\"?>\n<xsl:stylesheet\n        xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\n        xmlns:x=\"http://www.w3.org/1999/xhtml\"\n        version=\"1.0\"\n        >\n    <xsl:template match=\"@* | node()\">\n        <xsl:copy>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ListItemParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h1 | h2 | h3 | h4 | h5 | h6\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h4\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">Header4ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleUnorderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleOrderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleUnorderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleOrderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n</xsl:stylesheet>",
+                                                "type": "xsl"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "auto": {
+                                "template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "ParagraphText"
+                                        }
+                                    },
+                                    "rich": {
+                                        "transforms": [
+                                            {
+                                                "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <?xml-model href=\"schemas/xslt10.rnc\"\n            type=\"application/xml\"\n            schematypens=\"http://relaxng.org/ns/structure/1.0\"?>\n<xsl:stylesheet\n        xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\n        xmlns:x=\"http://www.w3.org/1999/xhtml\"\n        version=\"1.0\"\n        >\n    <xsl:template match=\"@* | node()\">\n        <xsl:copy>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ListItemParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"p\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h1 | h2 | h3 | h4 | h5 | h6\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"h4\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">Header4ParagraphText</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleUnorderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[not(parent::ul or parent::ol)]\">\n      <xsl:copy>\n        <xsl:attribute name=\"data-style\">OuterSimpleOrderedList</xsl:attribute>\n        <xsl:apply-templates select=\"@* | node()\" />\n      </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ul[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleUnorderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n    <xsl:template match=\"ol[parent::li]\">\n        <xsl:copy>\n            <xsl:attribute name=\"data-style\">SimpleOrderedList</xsl:attribute>\n            <xsl:apply-templates select=\"@* | node()\" />\n        </xsl:copy>\n    </xsl:template>\n</xsl:stylesheet>",
+                                                "type": "xsl"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "centene:medicaid:childrens_medical_services_health_plan:sshp"
+                    ],
+                    "spaceAfter": 18.0,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "<b>TOPIC {multitable_index_from_1}</b><br/><b>What we talked about:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<b>TEMA {multitable_index_from_1}</b><br/><b>De qu\u00e9 hablamos:</b>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "<b>TOPIC {multitable_index_from_1}</b><br/><b>What action I should take:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<b>TEMA {multitable_index_from_1}</b><br/><b>Qu\u00e9 acci\u00f3n debo tomar:</b>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1.0,
+                                    0.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "value": [
+                                    10.0
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    1.0,
+                                    -1.0
+                                ],
+                                "start": [
+                                    1.0,
+                                    1.0
+                                ],
+                                "value": [
+                                    1.0,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ],
+                    "top_border": true
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72.0,
+                "left": 48.0,
+                "right": 48.0,
+                "top": 36.0
+            },
+            "pagination": {
+                "show": true
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "orientation": "portrait",
+        "typography": {
+            "fonts": {},
+            "list_styles": {
+                "OuterSimpleOrderedList": {
+                    "bulletDedent": 12.0,
+                    "bulletFontName": "Arial-Unicode-normal",
+                    "leftIndent": 20.0,
+                    "parent_style": "OrderedList"
+                },
+                "OuterSimpleUnorderedList": {
+                    "bulletDedent": 20.0,
+                    "bulletFontName": "Arial-Unicode-normal",
+                    "bulletFontSize": 16.0,
+                    "bulletOffsetY": 2.0,
+                    "leftIndent": 20.0,
+                    "parent_style": "UnorderedList",
+                    "start": [
+                        "\u274f"
+                    ]
+                },
+                "SimpleOrderedList": {
+                    "bulletDedent": 12.0,
+                    "bulletFontName": "Arial-Unicode-normal",
+                    "leftIndent": 20.0,
+                    "parent_style": "OrderedList"
+                },
+                "SimpleUnorderedList": {
+                    "bulletDedent": 20.0,
+                    "bulletFontName": "Arial-Unicode-normal",
+                    "leftIndent": 20.0,
+                    "parent_style": "UnorderedList",
+                    "start": [
+                        "\u25cf"
+                    ]
+                }
+            },
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DisclaimerText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DocIdText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 9.0,
+                    "leading": 10.799999999999999,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterFormIdText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 10.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText1": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText2": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText3": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "FooterText4": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "FooterText"
+                },
+                "Header4ParagraphText": {
+                    "fontName": "Arial-bold",
+                    "parent_style": "ParagraphText",
+                    "spaceAfter": 2.0
+                },
+                "ListItemParagraphText": {
+                    "parent_style": "ParagraphText",
+                    "spaceAfter": 2.0
+                },
+                "ParagraphHeader": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 18.0,
+                    "leading": 18.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphMoreSpaceAfterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 18.0,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphNarrowText": {
+                    "fontName": "Arial-Narrow-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.399999999999999,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphPaperReductionActionText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 7.0,
+                    "leading": 8.4,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "ParagraphPullOutText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 14.399999999999999,
+                    "leading": 17.279999999999998,
+                    "parent_style": "BodyText",
+                    "text_alignment": "center"
+                },
+                "ParagraphSignature": {
+                    "fontName": "Lucida-Handwriting-normal",
+                    "fontSize": 18.0,
+                    "leading": 21.599999999999998,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 9.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphSomeSpaceAfterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12.0,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12.0,
+                    "leading": 14.399999999999999,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14.399999999999999,
+                    "spaceBefore": 2.0,
+                    "text_alignment": "left"
+                },
+                "SmallParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 8.0,
+                    "leading": 9.599999999999998,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 9.599999999999998,
+                    "spaceBefore": 1.3333333333333333,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 13.0,
+                    "leading": 15.6,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-09-30T13:02:01.092579"
+}

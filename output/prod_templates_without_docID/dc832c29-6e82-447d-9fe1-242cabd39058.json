@@ -1,0 +1,154 @@
+{
+    "created": "2023-01-25T15:47:30Z",
+    "id": "dc832c29-6e82-447d-9fe1-242cabd39058",
+    "name": "jmac_test",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "Medication List for {patient_full_name}, DOB: {patient_date_birth}, dynamic: [user.firstName]",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 12.0,
+                        "text_alignment": "right"
+                    },
+                    "width": 648.0,
+                    "x": 72.0,
+                    "y": 570.0
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 0.0,
+                    "x_end": 720.0,
+                    "x_start": 75.0,
+                    "y_end": 50.0,
+                    "y_start": 50.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "Form CMS-10396 (Expires: 02/24)",
+                    "text_style": {
+                        "fontSize": 7.0,
+                        "text_alignment": "left"
+                    },
+                    "width": 150.0,
+                    "x": 75.0,
+                    "y": 35.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "Form Approved OMB No. 0938-1154",
+                    "text_style": {
+                        "fontSize": 7.0,
+                        "text_alignment": "right"
+                    },
+                    "width": 300.0,
+                    "x": 420.0,
+                    "y": 35.0
+                }
+            },
+            {
+                "text": {
+                    "height": 10.0,
+                    "string": "DOCID-05406ff8-e3e6-4bf7-9935-6c337c0d6a1c",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 9.0,
+                        "text_alignment": "right"
+                    },
+                    "width": 300.0,
+                    "x": 420.0,
+                    "y": 18.0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<b>Medication List</b>",
+                    "text_style": {
+                        "parent_style": "Heading1Text"
+                    }
+                }
+            },
+            {
+                "spacer": {
+                    "height": 24.0
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "MRP DATA -- Discharge date: {mrp_discharge_date}; Expiration date: {mrp_expiration_date}",
+                    "text_style": {
+                        "parent_style": "Heading1Text"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72.0,
+                "left": 72.0,
+                "right": 72.0,
+                "top": 54.0
+            },
+            "orientation": "landscape",
+            "pagination": {
+                "font_name": null,
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {
+                "letter_date": {
+                    "English": {
+                        "format_string": "%B %-d, %Y",
+                        "locale": "en_US.UTF-8"
+                    },
+                    "Spanish": {
+                        "format_string": "%-d de %B de %Y",
+                        "locale": "es_ES.UTF-8"
+                    }
+                }
+            }
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "Heading1Text": {
+                    "fontName": "Times-New-Roman-normal",
+                    "parent_style": "Heading1"
+                },
+                "ParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 14.0,
+                    "leading": 14.0,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12.0
+                },
+                "TableHeaderText": {
+                    "fontName": "Times-New-Roman-bold",
+                    "fontSize": 12.0,
+                    "leading": 12.0,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2023-11-30T18:53:16"
+}
